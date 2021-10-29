@@ -1,0 +1,58 @@
+footer {
+	padding: 20px 17%;
+	background-color: $jkj-orange;
+	border-top: 8px solid $jkj-red;
+	color: white;
+	& > * {
+		width: 30%;
+	}
+	& > div:last-child {
+		ul {
+			display: inline-block;
+			li {
+				font-size: 1.5em;
+			}
+		}
+	}
+	address {
+		.name {
+			font-size: 1.5em;
+		}
+		p {
+			padding: 2px;
+		}
+	}
+	.social-networks {
+		text-align: center;
+		ul {
+			display: inline-block;
+		}
+		li {
+			display: inline-block;
+			margin-right: 1.5em;
+			a {
+				font-size: 2.5em;
+			}
+		}
+	}
+	&.skills-footer {
+		background-color: $jkj-orange;
+		border-top: 8px solid $jkj-red;
+		transition: background-color 0.15s ease-out;
+	}
+	&.work-footer {
+		background-color: #000;
+		border-top: 8px solid $jkj-red;
+		transition: background-color 0.15s ease-out;
+	}
+	&.about-me-footer {
+		background-color: #000;
+		border-top: 8px solid $dark-gray;
+		transition: background-color 0.15s ease-out;
+	}
+	&.contact-footer {
+		background-color: $jkj-red;
+		border-top: 8px solid $jkj-orange;
+		transition: background-color 0.15s ease-out;
+	}
+}

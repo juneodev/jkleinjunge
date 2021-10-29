@@ -1,0 +1,44 @@
+JKleinJunge's Website 2015, 
+Production Release 2.6.4: 
+
+
+- Rajouter, mettre à jour tout les projets et travaux.
+- bug fixing
+- restylisation de la navigation mobile
+- Ajout des textes des skills-icon
+
+
+
+	Bugs notables : 
+
+- les boites modal relative aux skills ne sont pas centrées
+- le slider ne marche pas en arrière
+
+
+	Idées d'améliorations : 
+
+- Optimisations des texture en les réduisant un maximum et en les répétant.
+
+
+	Améliorations futures :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,331 @@
+/////////////////////////////////////////////////////////////////////////////////////
+
+// The Projects Filter Styles :
+
+.filter-container {
+	text-align: center;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.filter {
+	margin: auto;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: white;
+	padding: 0 30px;
+	display: inline-block;
+	border-right:  1px white solid;
+}
+
+.filter:hover {
+	background-color: white;
+	color: #ff3600;
+	transition: 0.2s ease-out background-color;
+}
+
+.activ {
+	background-color: white;
+	color: #ff3600;
+	transition: 0.2s ease-out background-color;
+}
+
+.filter:last-child {
+	border-right:  none;
+}
+
+.filter-container > h2 {
+	color: white;
+	display: block;
+	background-color: #ff3600;
+	line-height: 70px;
+	font-size: 3em;
+	margin: 0 auto;
+}
+
+.filter-button-container {
+	height: 45px;
+	padding: 0 30px;
+	line-height: 45px;
+	float: right;
+	background-color: $jkj-orange;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 124;
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+// The Work Container Styles :
+
+.work > h3{
+	color: $jkj-orange;
+	font-size: 4em;
+	font-weight: 400;
+	text-align: center;
+	background-image: url(../img/JKJ-texture-navigation.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+}
+
+.work-container {
+	width: 100%;
+	background-image: url(../img/JKJ-texture-navigation.jpg);
+	background-position: center center;
+	position: relative;
+	z-index: 122;
+	box-shadow: 0px 17px 20px -22px black;
+	border-bottom: $jkj-orange-border;
+
+}
+
+.work-container ul > li > a  {
+	border:  none;
+}
+
+.work-container > ul > li  {
+	border-bottom:  $jkj-orange-border;
+	border-left:  $jkj-orange-border;
+	border-right:  $jkj-orange-border;
+	overflow: hidden;
+}
+
+right-side {
+	margin-right: 40px;
+	width: 40%;
+}
+
+.right-side {
+	margin-right: 0;
+	margin-left: 40px;
+	width: 40%;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+// The Big Mixin Constructor :
+
+@mixin project-creator(
+	$project-status,
+	$image-size,
+	$hover-color,
+	$box-shadow : true ) {
+
+		@if ( $project-status == "graph" ) {
+			width: 50%;
+			display: inline-block;
+			height: 400px;
+			overflow: hidden;
+			margin-bottom: -4px;
+			-webkit-transition: background 0.1s;
+		}
+
+		@if ( $project-status == "site" ) {
+			height: 400px;
+			-webkit-transition: background 0.1s;
+			overflow: hidden;
+			width: 100%;	
+		}
+
+		&:hover {
+			height : 400px;
+			line-height : 400px;
+			-webkit-transition: background 0.1s;
+			& .container {
+				img {
+
+					-webkit-filter: grayscale(0%);
+					-webkit-transition: .2s ease-in-out;
+					-moz-filter: grayscale(0%);
+					-moz-transition: .2s ease-in-out;
+					-o-filter: grayscale(0%);
+					-o-transition: .2s ease-in-out;
+				}
+				.right-side { 
+					h3  {
+						color: $hover-color;
+						-webkit-transition: .2s ease-in-out;
+						-moz-transition: .2s ease-in-out;
+						-o-transition: .2s ease-in-out;
+					}
+					ul li {
+						&:hover {
+							background-color:transparentize($hover-color, 0.3);
+							-webkit-transition: .1s ease-in-out;
+							-moz-transition: .1s ease-in-out;
+							-o-transition: .1s ease-in-out;
+						}
+						list-style: none; background-color: $hover-color;
+						-webkit-transition: .2s ease-in-out;
+						-moz-transition: .2s ease-in-out;
+						-o-transition: .2s ease-in-out;
+					}
+				}
+			}
+		}
+
+		&-container {
+			cursor: pointer;
+			width: 70%;
+			margin: 0 auto;
+			height: 400px;
+			line-height: 400px;
+
+			.left-side {
+				width: 50%;
+				display: inline-block;
+				vertical-align: middle;
+				img {
+					height: $image-size;
+					display: inline-block;
+					-webkit-filter: grayscale(100%);
+					-webkit-transition: .1s ease-in-out;
+					-moz-filter: grayscale(100%); 
+					-moz-transition: .1s ease-in-out;
+					-o-filter: grayscale(100%); 
+					-o-transition: .1s ease-in-out;
+					float: right;
+					filter: gray; /* IE6-9 */
+					filter: grayscale(1); /* Firefox 35+ */
+					@if ( $project-status == "graph" ) {
+						@if ( $box-shadow == true ) {
+							box-shadow: 1px 1px 10px black;						
+						}
+					}
+				}
+			}
+			.right-side {
+				display : inline-block;			
+				vertical-align : middle;
+				line-height :  normal;
+				h3  {
+					color: #808080; font-size: 2em;
+					-webkit-transition: .2s ease-in-out;
+					-moz-transition: .2s ease-in-out;
+					-o-transition: .2s ease-in-out;
+				}
+				p  {
+					margin-top: 10px; margin-bottom: 20px; color: #000; font-size: 1.5em;
+				}
+				ul li {
+					list-style: none; 
+					color: #fff;
+					font-size: 1.2em;
+					display: inline-block;
+					background-color: #808080;
+					padding: 5px 8px;
+					font-family: neuehaasMed;
+					border-radius: 5px;
+					cursor: pointer;
+					-webkit-transition: .2s ease-in-out;
+					-moz-transition: .2s ease-in-out;
+					-o-transition: .2s ease-in-out;
+					margin-top: 2px;
+				}
+			}
+		}
+	}
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Project Example :
+
+/*
+
+.project-name {
+@include project-creator( 	
+$project-status, 
+$image-size, 
+$hover-color,
+$box-shadow : true
+);
+}
+
+*/
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+// The Projects :
+
+.fc-site {
+	@include project-creator( 
+		site, 
+		250px, 
+		#00005C
+		);
+}
+
+.mrs-graph {
+	@include project-creator( 
+		graph, 
+		300px, 
+		#702661
+		);
+}
+
+.color-run-graph {
+	@include project-creator( 
+		graph, 
+		300px, 
+		#27AEDD		
+		);
+}
+
+.nendaz-graph {
+	@include project-creator(
+		graph, 
+		300px, 
+		#FBA917
+		);
+}
+
+.bv-logo {
+	@include project-creator( 
+		graph, 
+		200px, 
+		#13A69C,
+		false
+		);	
+}
+
+.jkj-site {
+	@include project-creator(
+		site, 
+		250px,  
+		#10A339
+		);	
+}
+
+.kenzo-graph {
+	@include project-creator( 
+		graph, 
+		300px,  
+		rgb(226, 49, 43) 
+		);	
+}
+
+.cgt-graph {
+	@include project-creator( 
+		graph, 
+		300px,  
+		#4999d3 
+		);	
+}
+
+.bp-site {
+	@include project-creator( 
+		site, 
+		250px,  
+		#206163 
+		);	
+}	
+
+.ld-site {
+	@include project-creator( 
+		site, 
+		250px,  
+		#227FB2
+		);	
+}	

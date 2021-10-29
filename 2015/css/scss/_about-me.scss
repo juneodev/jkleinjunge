@@ -1,0 +1,44 @@
+
+/*///////////////////////////              About-me Container            ///////////////////////////*/
+
+.about-me {
+	background-image: url(../img/big-work-container-texture-white.jpg);
+	background-position: center center;
+	height: 500px;
+	overflow: hidden;
+	border-bottom: 2px solid #ff3600;
+}
+
+.about-me img {
+	float: left;
+	width: 190px;
+	border-radius: 100%;
+	border: 3px solid #ff3600;
+}
+
+
+.about-me-container {
+	width: 45%;
+	margin: 0 auto;
+	//height: 200px;
+	//margin-top: 140px;
+	overflow: hidden;
+	
+}
+
+.about-me-container .text {
+	width: 65%;
+	float: right;
+}
+
+.about-me-container h3 {
+	font-size: 3em;
+	color: #ff3600;
+	text-decoration: underline;
+}
+
+.about-me-container p {
+	color: #000000;
+	font-weight: 300;
+	font-size: 1.1em;
+}

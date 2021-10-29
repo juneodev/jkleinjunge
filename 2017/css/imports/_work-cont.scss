@@ -1,0 +1,72 @@
+#work-content {
+	width: 100%;
+	overflow: auto;
+	article {
+		height: 250px;
+		width: 50%;
+		background-color: $light-gray;
+		padding: 0 5%;
+		box-shadow: 5px 10px 20px -15px black;
+		margin-bottom: 50px;
+		img {
+			height: 250px;
+			margin-top: 50px;
+		}
+		& > div {
+			width: 45%;
+			h3 {
+				font-size: 2em;
+			}
+			h4 {
+				font-size: 1.5em;
+				padding: 7px 0;
+			}
+		}
+		&:last-child {
+			width: 50%;
+			.lightbox {
+				height: 200px;
+				background-image: url(../img/JKJ2017_graph-compo-bg.png);
+				-webkit-animation-name: move-bg; /* Safari 4.0 - 8.0 */
+				-webkit-animation-duration: 3000s; /* Safari 4.0 - 8.0 */
+				animation-name: move-bg;
+				animation-duration: 3000s;
+				box-shadow: 0 0px 25px -12px black inset;
+			}
+			div:last-child {
+				margin-left: 30px;
+			}
+		}
+		&.fc-website {
+			background-color: $light-gray;
+			h3 {
+				color: #03196c;
+			}
+		}
+		&.ld-website {
+			background-color: #227fb2;
+			color: #fff;
+		}
+		&.bp-website {
+			background-color: #206163;
+			color: #fff;
+		}
+		&.fl-website {
+			background-color: #27bce9;
+			color: #fff;
+		}
+		&.desqq-website {
+			background-color: #151515;
+			color: #fff;
+		}
+	}
+}
+@-webkit-keyframes move-bg {
+	from {background-position: 0px;}
+	to {background-position: 100000px;}
+}
+@keyframes move-bg {
+	from {background-position: 0px;}
+	to {background-position: 100000px;}
+}
+

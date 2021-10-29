@@ -1,0 +1,122 @@
+@media screen and (max-width: 600px) {
+	// Header
+	nav {
+		ul {
+			display: none;
+		}
+		.drop-down-button {
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			background-image: url(../img/JKJ2017_drop-down-menu-icon.png);
+			background-size: 30px;
+			background-position: center;
+			background-repeat: no-repeat;
+			&.open {
+				background-image: url(../img/JKJ2017_drop-down-close-menu-icon.png);
+			}
+		}
+	}
+	.mobile-nav {
+		display: none;
+		&.open {
+			display: block;
+		}
+	}
+	// Jumbotron
+	#jumbotron {
+		h2 {
+			font-size: 0.8em;
+			padding: 40px;
+		}
+	}
+	// Skills
+	#skills-content {
+		width: 100%;
+		article, article:first-child {
+			flex-direction: column;
+			img {
+				width: 50%;
+				padding: 20px 0;
+			}
+			& > div {
+				width: 80%;
+				padding: 20px 0;
+				text-align: center;
+			}
+		}
+		article:nth-child(2) {
+			flex-direction: column-reverse;
+		}
+	}
+	// Work
+	#work-content article {
+		flex-direction: column-reverse;
+		height: auto;
+		text-align: center;
+		padding: 20px 5%;
+		&:last-child div:last-child {
+			margin-left: 0;
+		}
+		& > div {
+			width: 65%;
+		}
+		.lightbox {
+			margin-top: 25px;
+			width: 95%;
+		}
+	}
+	// About me
+	#about-me-content {
+		.intro {
+			margin-top: 0px;
+			flex-direction: column;
+			img {
+				margin-top: -53px;
+				margin-bottom: 30px;
+			}
+			& > p {
+				width: 80%;
+				text-align: center;
+			}
+		}
+		.columns {
+			-webkit-column-count: 1;
+			-moz-column-count: 1;
+			column-count: 1;
+			font-size: 0.9em;
+		}
+		.work-exp, .trainings {
+			flex-direction: column-reverse;
+			text-align: center;
+			& > * {
+				padding: 20px 0;
+			}
+			img {
+				height: 120px;
+			}
+			div {
+				width: 70%;
+				h5 {
+					font-size: 1.3em;
+				}
+			}
+		}
+	}
+	// Contact
+	#contact-content {
+		width: 60%;
+	}
+	// Footer
+	footer {
+		padding: 10px 2%;
+		& > * {
+			width: 90%;
+			text-align: center;
+			padding: 10px 0;
+		}
+		address {
+			font-size: 0.8em;
+		}
+	}
+}

@@ -1,0 +1,280 @@
+/////////////////////////////////////////////////////////////////////////////////////
+
+// The Projects Filter Styles :
+
+.filter-container {
+	width: 50%;
+	margin: 0 auto;
+	height: 70px;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.filter {
+	margin: auto;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #ff3600;
+	padding: 0 30px;
+	display: inline-block;
+	border-right:  1px #ff3600 solid;
+}
+
+.filter:hover {
+	background-color: #ff3600;
+	color: white;
+	transition: 0.2s ease-out background-color;
+}
+
+.filter:last-child {
+	border-right:  none;
+}
+
+.filter-container > h2 {
+	color: black;
+	display: inline-block;
+	line-height: 70px;
+	font-size: 3em;
+}
+
+.filter-button-container {
+	height: 70px;
+	padding: 0 30px;
+	line-height: 70px;
+	float: right;
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+// The Work Container Styles :
+
+.work > h3{
+	color: $jkj-orange;
+	font-size: 4em;
+	font-weight: 400;
+	text-align: center;
+	background-image: url(../img/JKJ-texture-navigation.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+}
+
+.work-container {
+	width: 100%;
+	background-image: url(../img/big-work-container-texture.jpg);
+	background-position: center center;
+
+}
+
+.work-container ul > li > a  {
+	border:  none;
+}
+
+.work-container > ul > li  {
+	border:  $jkj-orange-border;
+	overflow: hidden;
+}
+
+.lucid-dream-site .right-side {
+	margin-right: 40px;
+	width: 40%;
+}
+
+.right-side {
+	margin-right: 0;
+	margin-left: 40px;
+	width: 40%;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+// The Big Mixin Constructor :
+
+@mixin project-creator($project-status, $image-size, $background-color-hover, $title-color, $under-title-color, $skills-color, $box-shadow : true) {
+
+	@if ( $project-status == "graph" ) {
+		width: 50%;
+		display: inline-block;
+		height: 400px;
+		overflow: hidden;
+		margin-bottom: -4px;
+		background: rgba(105, 105, 105, 0.5);
+		-webkit-transition: background 0.1s;
+	}
+
+	@if ( $project-status == "site" ) {
+		height: 400px;
+		background: rgba(105, 105, 105, 0.5);
+		-webkit-transition: background 0.1s;
+		overflow: hidden;
+		width: 100%;	
+	}
+
+	&:hover {
+		height: 400px;
+		background: $background-color-hover;
+		-webkit-transition: background 0.1s;
+		& .container { 
+			.right-side { 
+				h3  {
+					margin-top: 55px; color: $title-color; 
+				}
+				h4  {margin-top: 10px; color: under-title-color; 
+				}
+				ul li {
+					list-style: none; color: $skills-color; 
+				}
+			}
+		}
+	}
+
+	&-container {
+		width: 70%;
+		margin: 0 auto;
+		.left-side {
+			width: 50%;
+			display: inline-block;
+			@if ( $project-status == "site" ) {
+				height: 500px;
+				vertical-align: top;
+			}
+			img {
+				width: $image-size;
+				display: inline-block;
+				float: right;
+				@if ( $project-status == "graph" ) {
+					margin-top: 50px;
+					@if ( $box-shadow == true ) {
+						box-shadow: 1px 1px 10px black;						
+					}
+				}
+			}
+		}
+		.right-side {
+			display: inline-block;			
+			vertical-align: top;
+			h3  {
+				margin-top: 55px; color: #cecece; font-size: 2em;
+			}
+			h4  {
+				margin-top: 10px; color: #cecece; font-size: 2em;
+			}
+			ul li {
+				list-style: none; color: #cecece; font-size: 1.2em;
+			}
+		}
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Project Example :
+
+/*
+
+.project-name {
+@include project-creator( 	
+$project-status, 
+$image-size, 
+$background-color-hover, 
+$title-color, $under-title-color,
+$skills-color, 
+$box-shadow : true
+);
+}
+
+*/
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+// The Projects :
+
+.fc-site {
+	@include project-creator( 
+		site, 
+		350px, 
+		rgba(0, 18, 144, 0.8), 
+		white, 
+		white,
+		#FF3600
+		);
+}
+
+.mrs-graph {
+	@include project-creator( 
+		graph, 
+		300px, 
+		rgba(216,61,176, 0.8), 
+		#62001a, 
+		#62001a,
+		white
+		);
+}
+
+.color-run-graph {
+	@include project-creator( 
+		graph, 
+		300px, 
+		rgba(42, 127, 192, 0.8), 
+		white, 
+		white, 
+		#ffd800
+		);
+}
+
+.nendaz-graph {
+	@include project-creator( graph, 
+		300px, 
+		rgba(0,0,0,0.5), 
+		#FCE100, 
+		#FCE100, 
+		white
+		);
+}
+
+.bv-logo {
+	@include project-creator( 
+		graph, 
+		200px, 
+		rgba(159, 34, 69,0.7),
+		#13A69C, 
+		#13A69C, 
+		white, 
+		false
+		);	
+}
+
+.jkj-site {
+	@include project-creator(
+		site, 
+		250px,  
+		rgba(23, 154, 53, 0.8), 
+		white, 
+		white, 
+		#af2a00
+		);	
+}
+
+.kenzo-graph {
+	@include project-creator( 
+		graph, 
+		300px,  
+		rgba(226, 49, 43, 0.8), 
+		white, 
+		white, 
+		white
+		);	
+}
+
+
+.ma-logo {
+	@include project-creator( 
+		graph, 
+		300px, 
+		rgba(147, 149, 152, 0.8),
+		white, 
+		white, 
+		white,
+		false
+		);	
+}

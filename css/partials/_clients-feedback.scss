@@ -1,0 +1,105 @@
+// ------------- Slideshow test
+
+#clients-feedback h2 {
+
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: $grey-51;
+
+}
+
+.feedbacks {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 300px;
+
+  .feedback-as {
+    background-color: #1456ac;
+  }
+  .feedback-fc {
+    background-color: #002560;
+  }
+
+}
+
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 0 150px;
+}
+
+.feedback_user {
+  width: 30%;
+  text-align: center;
+
+  figcaption {
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+  }
+}
+
+.feedback_comment {
+  width: 50%;
+  position: relative;
+}
+
+.feedback_comment-start-quote, .feedback_comment-end-quote {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  background-size: 20px;
+}
+
+.feedback_comment-start-quote {
+  top: 0px;
+  left: 0px;
+}
+
+.feedback_comment-end-quote {
+  right: 0px;
+  bottom: 0px;
+}
+
+.feedback_user-picture {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.feedback_comment-content p {
+  width: 75%;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.feedback_ratings {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.feedback_ratings-star {
+  width: 20px;
+  height: 20px;
+  -webkit-background-size: 10px;
+  background-size: 20px;
+  display: inline-block;
+}

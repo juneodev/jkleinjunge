@@ -1,0 +1,63 @@
+#about-me-content {
+	width: 60%;
+	padding: 35px;
+	.intro {
+		margin-top: -58px;
+		padding-bottom: 80px;
+		img {
+			height: 300px;
+			-ms-transform: rotate(7deg);
+			-webkit-transform: rotate(7deg);
+			transform: rotate(180deg);			
+		}
+		& > p {
+			font-size: 1.7em;
+			width: 50%;
+			em {				
+				color: $jkj-orange;
+			}
+		}
+	}
+	.columns {
+		display: inline-block;
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+		-moz-column-count: 2; /* Firefox */
+		column-count: 2;
+		column-gap : 80px;
+		column-rule: 1px solid $light-gray;
+		column-span: all;
+		p {
+			font-size: 1.2em;
+			margin-bottom: 20px;
+		}
+		h5 {
+			font-size: 1.6em;
+			margin-bottom: 10px;
+			color: $jkj-orange;
+		}
+		a {
+			display: inline-block;
+			width: 100%;
+			text-align: center;
+			margin-top: 20px;
+		}
+	}
+	.trainings, .work-exp {
+		padding: 70px 50px;
+		font-size: 1.1em;
+		div {
+			width: 60%;
+		}
+		img {
+			height: 120px;
+		}
+		h5 {
+			padding: 15px 0;
+			color: $jkj-orange;
+			font-size: 1.5em;
+		}
+		p.loc {
+			color: $jkj-orange;
+		}
+	}
+}

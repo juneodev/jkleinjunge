@@ -1,0 +1,46 @@
+
+/*///////////////////////////              About-me Container            ///////////////////////////*/
+
+.about-me {
+	background-image: url(../img/big-work-container-texture-white.jpg);
+	background-position: center center;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	z-index: 21;
+	box-shadow: 0px 17px 20px -22px black;
+}
+
+.about-me img {
+	float: left;
+	width: 200px;
+}
+
+
+.about-me-container {
+	width: 45%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.about-me-container .text {
+	width: 65%;
+	float: right;
+}
+
+.about-me-container h3 {
+	font-size: 3em;
+	color: $jkj-orange;
+	margin-bottom: 10px;
+}
+
+.about-me-container p {
+	color: #000;
+	font-size: 1.2em;
+}
+
+.about-me-container a {
+	color: $jkj-orange;
+	text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+@media (max-width: 900PX) {
+
+  #slider {
+    height: auto;
+    padding: 0;
+  }
+
+  #slider #slider_container {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+
+  #slider #slider_content .content {
+    bottom: 0;
+  }
+
+  #slider #slider_content {
+    width: 45%;
+    text-align: center;
+
+  }
+
+  #slider #slider_illustrations {
+    top: -15px;
+  }
+
+}
+
+@media (max-width: 800PX) {
+
+  #conception-phases h2 {
+    padding: 25px;
+  }
+
+  #slider #slider_content {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 600PX) {
+
+  #slider #slider_container {
+    width: 90%;
+  }
+
+  #slider #slider_content {
+    width: 90%;
+  }
+
+  #slider #slider_illustrations {
+    width: 500px;
+  }
+
+  #slider.slide-1 #content-1 {
+    bottom: 40px;
+  }
+
+  #slider #slider_illustrations {
+    -webkit-transform: scale(0.4, 0.4);
+    -moz-transform: scale(0.4, 0.4);
+    -ms-transform: scale(0.4, 0.4);
+    -o-transform: scale(0.4, 0.4);
+    transform: scale(0.4, 0.4);
+
+  }
+
+}

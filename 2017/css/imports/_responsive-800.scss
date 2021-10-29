@@ -1,0 +1,76 @@
+@media screen and (max-width: 800px) {
+	// Header
+	// Jumbotron
+	// Skills
+	#skills-content {
+		width: 100%;
+		article > div {
+			width: 50%;
+		}
+		article img {
+			height: auto;
+			width: 250px;
+		}
+		article:first-child {
+			img {
+				width: 200px;
+			}
+		}
+	}
+	// Work	
+	#work-content article {
+		padding: 0px 5%;
+		& > div {
+			width: 55%;
+			h3 {
+				font-size: 1.6em;
+			}
+			h4 {
+				font-size: 1.3em;
+			}
+		}
+	}
+	// About me
+	#about-me-content {
+		.intro {
+			img {
+				height: 230px;
+				margin-top: 6px;
+			}
+			p {
+				font-size: 1.5em;
+			}
+		}
+		.trainings, .work-exp {
+			padding: 30px 10px;
+			div {
+				width: 50%;
+				h5 {
+					font-size: 1.3em;
+				}
+			}
+		}
+		.trainings {
+			border-bottom: 1px solid $light-gray;
+		}
+	}
+	// Contact
+	#contact-content {
+		width: 50%;
+	}
+	// Footer
+	footer {
+		flex-direction: column;
+		& > * {
+			width: 80%;
+			text-align: center;
+			padding: 20px 0;
+		}
+		address {
+			font-size: 1em;
+		}
+		& > div:last-child ul {
+			float: none;
+		}
+	}
+}

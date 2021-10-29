@@ -1,0 +1,51 @@
+@media (max-width: 1000PX) {
+
+  .feedback {
+    padding: 0 100px;
+  }
+
+}
+
+@media (max-width: 800PX) {
+
+  .feedback {
+    padding: 0 0px;
+  }
+
+}
+
+@media (max-width: 600PX) {
+
+  .feedback {
+    padding: 0;
+  }
+
+  .feedback {
+    flex-direction: column;
+  }
+
+  .feedbacks {
+    height: 400px;
+  }
+
+
+  .feedback_user {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .feedback_comment {
+    width: 75%;
+  }
+}
+
+@media (max-width: 400PX) {
+
+  .feedback_user {
+    width: 70%;
+  }
+
+  .feedback_comment {
+    width: 85%;
+  }
+}

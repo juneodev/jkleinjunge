@@ -1,0 +1,2443 @@
+@charset "UTF-8";
+/* General */
+/* line 3, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+a {
+  list-style: none;
+  text-decoration: none; }
+
+/* line 8, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 12, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.container {
+  width: 60%;
+  margin: 0 auto; }
+
+/* line 17, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.float-right {
+  float: right;
+  text-align: right; }
+
+/* line 22, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.float-left {
+  float: left;
+  text-align: left; }
+
+/* line 27, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+* {
+  text-decoration: none;
+  box-sizing: border-box; }
+
+/* line 32, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 37, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.contact-container div img {
+  width: 767px;
+  margin: 18px -83px; }
+
+/* line 43, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+main {
+  margin-top: 60px;
+  overflow: hidden; }
+
+/* line 48, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.dot {
+  color: #ff3600; }
+
+/* line 56, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.slide-text {
+  padding: 10px;
+  /* aération interne du bloc */
+  width: 49%;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1.2;
+  /* on rétablit le line-height */
+  vertical-align: top; }
+
+/* line 68, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.slide h4 {
+  margin-top: 20px;
+  font-size: 1.7em;
+  color: #cecece; }
+
+/* line 76, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.lobster {
+  font-family: Lobster; }
+
+/* line 79, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.play {
+  font-family: Play; }
+
+/* line 82, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.oswald {
+  font-family: Oswald; }
+
+/* line 85, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.oxygen {
+  font-family: Oxygen; }
+
+/* line 90, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.t-a-left {
+  text-align: left; }
+
+/* line 93, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.t-a-right {
+  text-align: right; }
+
+/* line 96, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.t-a-center {
+  text-align: center; }
+
+/* line 100, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.o700 {
+  font-weight: 700; }
+
+/* line 101, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.o400 {
+  font-weight: 400; }
+
+/* line 102, C:/wamp/www/jkj/Current-version/css/scss/_defaults.scss */
+.o300 {
+  font-weight: 300; }
+
+/* Carousel */
+/* line 3, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slider {
+  background: url(../img/JKJ-texture-navigation.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 470px;
+  box-shadow: 1px 3px 3px black; }
+
+/* line 12, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 470px;
+  overflow: auto;
+  clear: both; }
+
+/* line 24, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.active-slide {
+  display: block; }
+
+/* line 28, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slide-text h1 {
+  color: #ff3600;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 0px; }
+
+/* line 36, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slide-text h2 {
+  color: #b7b7b7;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 5px; }
+
+/* line 45, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slide-text p {
+  color: #fff;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+  font-weight: 300; }
+
+/* line 54, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slide-img {
+  width: 45%;
+  display: inline-block; }
+
+/* Slide feature */
+/* line 63, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slide-feature {
+  text-align: center;
+  background-image: url();
+  height: 470px; }
+
+/* line 69, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slide-feature img {
+  margin-top: 112px;
+  margin-bottom: 28px; }
+
+/* line 74, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slide-feature a {
+  display: block;
+  color: #6fc5e0;
+  font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px; }
+
+/* line 84, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slider-nav {
+  text-align: center; }
+
+/* line 88, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.arrow-next {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  background-image: url(../img/JKJ-slider-arrows-sprite.png);
+  background-size: 40px;
+  height: 40px;
+  width: 22px;
+  background-repeat: no-repeat;
+  z-index: 999999; }
+
+/* line 101, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.arrow-prev {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  background-image: url(../img/JKJ-slider-arrows-sprite.png);
+  background-size: 40px;
+  background-position: -20px;
+  height: 40px;
+  width: 22px;
+  background-repeat: no-repeat;
+  z-index: 999999; }
+
+/* line 114, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-top: 30px; }
+
+/* line 121, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slider-dots li {
+  color: #4f5b6d;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px; }
+
+/* line 128, C:/wamp/www/jkj/Current-version/css/scss/_slider.scss */
+.slider-dots li.active-dot {
+  color: #ff3600; }
+
+/* line 1, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+header {
+  height: 60px;
+  background-color: rgba(230, 230, 230, 0.9);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom: solid 2px #ff3600;
+  position: fixed;
+  z-index: 9999999;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -60px; }
+
+/* line 15, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+header h1 {
+  margin: 0; }
+
+/* line 19, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+h1 {
+  margin: 0; }
+
+/* line 23, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+header ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 25, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+header a {
+  font-size: 1.5em;
+  font-family: Oswald;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 20px; }
+
+/* line 36, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+nav {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url(../img/JKJ-logo.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: left center; }
+
+/* line 47, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+nav > a {
+  float: left;
+  width: 50px;
+  height: 50px; }
+
+/* line 53, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+nav > ul {
+  float: right; }
+
+/* line 56, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+nav > ul li:last-child a {
+  border: none; }
+
+/* line 57, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+nav > ul li {
+  display: inline-block;
+  height: 100%; }
+
+/* line 62, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+nav > ul li a {
+  line-height: 60px;
+  border-right: solid 2px #ff3600; }
+
+/* line 67, C:/wamp/www/jkj/Current-version/css/scss/_header.scss */
+nav > ul li a:focus {
+  outline: none; }
+
+/* line 2, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col-section {
+  width: 100%;
+  background-color: #f0f0f0;
+  height: 380px; }
+
+/* line 9, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 0; }
+
+/* line 15, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col {
+  box-sizing: border-box;
+  width: 20%;
+  margin: 0 2%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  z-index: 9999; }
+
+/* line 27, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col h3 {
+  font-size: 1.5em;
+  color: #ff3600;
+  margin-bottom: 2em; }
+
+/* line 33, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col img {
+  width: 110px;
+  margin: 0 auto; }
+
+/* line 40, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.skill-container {
+  list-style: none;
+  background-color: lightgray;
+  text-align: center;
+  box-sizing: border-box; }
+
+/* line 50, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.skill {
+  width: 70%;
+  padding: 5px;
+  text-align: left;
+  margin: auto;
+  border-bottom: 1px solid red; }
+
+/* line 58, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.skill:last-child {
+  border: none; }
+
+/* line 59, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.skill a {
+  width: 100%;
+  display: inline-block;
+  line-height: 30px;
+  text-decoration: none;
+  color: #2C2C2C;
+  font-family: oswald; }
+
+/* line 69, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col ul {
+  max-height: 0;
+  -webkit-transition: max-height 0.15s ease-out;
+  overflow: hidden;
+  background: #f0f0f0; }
+
+/* line 76, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:hover ul {
+  max-height: 500px;
+  -webkit-transition: max-height 0.2s ease-in;
+  border-top: 1px solid #ff3600;
+  box-shadow: 0px 22px 40px -39px black inset; }
+
+/* line 85, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col-container a span {
+  width: 32px;
+  height: 30px;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+  background-size: 425px;
+  background-repeat: no-repeat;
+  background-image: url(../img/JKJ-skill-icon-sprite.png); }
+
+/* line 98, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(1) li:nth-child(1) span {
+  background-position: -92px 1px; }
+
+/* line 102, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(1) li:nth-child(2) span {
+  background-position: 0px 1px; }
+
+/* line 106, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(1) li:nth-child(3) span {
+  background-position: -155px 1px;
+  background-size: 425px; }
+
+/* line 111, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(2) li:nth-child(1) span {
+  background-position: -185px 1px; }
+
+/* line 115, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(2) li:nth-child(2) span {
+  background-position: -129px 1px; }
+
+/* line 119, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(2) li:nth-child(3) span {
+  background-position: -32px 1px; }
+
+/* line 124, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(2) li:nth-child(4) span {
+  background-position: -305px 1px; }
+
+/* line 128, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(3) li:nth-child(1) span {
+  background-position: -217px 1px; }
+
+/* line 132, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(3) li:nth-child(2) span {
+  background-position: -58px 1px; }
+
+/* line 136, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(3) li:nth-child(3) span {
+  background-position: -280px 1px; }
+
+/* line 140, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(3) li:nth-child(4) span {
+  background-position: -251px 1px; }
+
+/* line 144, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(4) li:nth-child(1) span {
+  background-position: -329px 1px; }
+
+/* line 148, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(4) li:nth-child(2) span {
+  background-position: -363px 1px; }
+
+/* line 152, C:/wamp/www/jkj/Current-version/css/scss/_skills.scss */
+.col:nth-child(4) li:nth-child(3) span {
+  background-position: -395px 1px; }
+
+/* line 2, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+.projects {
+  background-image: url(../img/big-work-container-texture-white.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  -moz-box-shadow: 0px 0px 6px 2px #656565;
+  -webkit-box-shadow: 0px 0px 6px 2px #656565;
+  -o-box-shadow: 0px 0px 6px 2px #656565;
+  box-shadow: 0px 0px 6px 2px #656565;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=6);
+  margin-bottom: 30px; }
+
+/* line 13, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+.project {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right; }
+  /* line 19, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+  .project:hover .project-container {
+    background-size: 110px;
+    opacity: 1;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out; }
+
+/* line 30, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+.projet-ld {
+  background-image: url(../img/image-projet-ld.jpg); }
+
+/* line 33, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+.projet-bp {
+  background-image: url(../img/image-projet-bp.jpg); }
+
+/* line 37, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+.projects > h3 {
+  color: #206E94;
+  font-size: 4em;
+  margin-top: -30px;
+  font-weight: 300;
+  text-align: center;
+  border-bottom: 2px solid #206E94;
+  border-top: 2px solid #dbdbdb;
+  background-image: url(../img/big-work-container-texture-white.jpg);
+  background-repeat: repeat;
+  background-position: center center; }
+
+/* line 50, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+.project-container {
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+  opacity: 0.55;
+  line-height: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: 50% center;
+  margin-bottom: 5em;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -ms-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out; }
+
+/* line 68, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+.ld-logo {
+  background-image: url(../img/lucid-dream-logo.png);
+  background-size: 100px; }
+
+/* line 72, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+.bp-logo {
+  background-image: url(../img/bp-logo-white.svg);
+  background-size: 100px; }
+
+/* line 77, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+.project-text {
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1; }
+  /* line 83, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+  .project-text h4 {
+    font-size: 2em;
+    font-weight: 200; }
+  /* line 87, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+  .project-text h3 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-top: 0;
+    display: inline-block; }
+  /* line 93, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+  .project-text p {
+    margin-top: 10px; }
+  /* line 97, C:/wamp/www/jkj/Current-version/css/scss/_projects.scss */
+  .project-text .project-button {
+    padding: 10px 30px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 10px;
+    color: #206E94;
+    font-size: 1em;
+    font-weight: 400;
+    display: inline-block; }
+
+/* line 5, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.filter-container {
+  width: 50%;
+  margin: 0 auto;
+  height: 70px;
+  margin-bottom: 25px;
+  cursor: pointer; }
+
+/* line 13, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.filter {
+  margin: auto;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #ff3600;
+  padding: 0 30px;
+  display: inline-block;
+  border-right: 1px #ff3600 solid; }
+
+/* line 23, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.filter:hover {
+  background-color: #ff3600;
+  color: white;
+  transition: 0.2s ease-out background-color; }
+
+/* line 29, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.filter:last-child {
+  border-right: none; }
+
+/* line 33, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.filter-container > h2 {
+  color: black;
+  display: inline-block;
+  line-height: 70px;
+  font-size: 3em; }
+
+/* line 40, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.filter-button-container {
+  height: 70px;
+  padding: 0 30px;
+  line-height: 70px;
+  float: right; }
+
+/* line 52, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.work > h3 {
+  color: #ff3600;
+  font-size: 4em;
+  font-weight: 400;
+  text-align: center;
+  background-image: url(../img/JKJ-texture-navigation.jpg);
+  background-repeat: repeat;
+  background-position: center center; }
+
+/* line 62, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.work-container {
+  width: 100%;
+  background-image: url(../img/big-work-container-texture.jpg);
+  background-position: center center; }
+
+/* line 69, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.work-container ul > li > a {
+  border: none; }
+
+/* line 73, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.work-container > ul > li {
+  border: solid 2px #ff3600;
+  overflow: hidden; }
+
+/* line 78, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.lucid-dream-site .right-side {
+  margin-right: 40px;
+  width: 40%; }
+
+/* line 83, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.right-side {
+  margin-right: 0;
+  margin-left: 40px;
+  width: 40%; }
+
+/*
+
+.project-name {
+@include project-creator( 	
+$project-status, 
+$image-size, 
+$background-color-hover, 
+$title-color, $under-title-color,
+$skills-color, 
+$box-shadow : true
+);
+}
+
+*/
+/* line 192, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.fc-site {
+  height: 400px;
+  background: rgba(105, 105, 105, 0.5);
+  -webkit-transition: background 0.1s;
+  overflow: hidden;
+  width: 100%; }
+  /* line 113, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .fc-site:hover {
+    height: 400px;
+    background: rgba(0, 18, 144, 0.8);
+    -webkit-transition: background 0.1s; }
+    /* line 119, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .fc-site:hover .container .right-side h3 {
+      margin-top: 55px;
+      color: white; }
+    /* line 122, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .fc-site:hover .container .right-side h4 {
+      margin-top: 10px;
+      color: under-title-color; }
+    /* line 124, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .fc-site:hover .container .right-side ul li {
+      list-style: none;
+      color: #FF3600; }
+  /* line 131, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .fc-site-container {
+    width: 70%;
+    margin: 0 auto; }
+    /* line 134, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .fc-site-container .left-side {
+      width: 50%;
+      display: inline-block;
+      height: 500px;
+      vertical-align: top; }
+      /* line 141, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .fc-site-container .left-side img {
+        width: 350px;
+        display: inline-block;
+        float: right; }
+    /* line 153, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .fc-site-container .right-side {
+      display: inline-block;
+      vertical-align: top; }
+      /* line 156, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .fc-site-container .right-side h3 {
+        margin-top: 55px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 159, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .fc-site-container .right-side h4 {
+        margin-top: 10px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 162, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .fc-site-container .right-side ul li {
+        list-style: none;
+        color: #cecece;
+        font-size: 1.2em; }
+
+/* line 203, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.mrs-graph {
+  width: 50%;
+  display: inline-block;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: -4px;
+  background: rgba(105, 105, 105, 0.5);
+  -webkit-transition: background 0.1s; }
+  /* line 113, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .mrs-graph:hover {
+    height: 400px;
+    background: rgba(216, 61, 176, 0.8);
+    -webkit-transition: background 0.1s; }
+    /* line 119, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .mrs-graph:hover .container .right-side h3 {
+      margin-top: 55px;
+      color: #62001a; }
+    /* line 122, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .mrs-graph:hover .container .right-side h4 {
+      margin-top: 10px;
+      color: under-title-color; }
+    /* line 124, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .mrs-graph:hover .container .right-side ul li {
+      list-style: none;
+      color: white; }
+  /* line 131, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .mrs-graph-container {
+    width: 70%;
+    margin: 0 auto; }
+    /* line 134, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .mrs-graph-container .left-side {
+      width: 50%;
+      display: inline-block; }
+      /* line 141, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .mrs-graph-container .left-side img {
+        width: 300px;
+        display: inline-block;
+        float: right;
+        margin-top: 50px;
+        box-shadow: 1px 1px 10px black; }
+    /* line 153, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .mrs-graph-container .right-side {
+      display: inline-block;
+      vertical-align: top; }
+      /* line 156, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .mrs-graph-container .right-side h3 {
+        margin-top: 55px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 159, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .mrs-graph-container .right-side h4 {
+        margin-top: 10px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 162, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .mrs-graph-container .right-side ul li {
+        list-style: none;
+        color: #cecece;
+        font-size: 1.2em; }
+
+/* line 214, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.color-run-graph {
+  width: 50%;
+  display: inline-block;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: -4px;
+  background: rgba(105, 105, 105, 0.5);
+  -webkit-transition: background 0.1s; }
+  /* line 113, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .color-run-graph:hover {
+    height: 400px;
+    background: rgba(42, 127, 192, 0.8);
+    -webkit-transition: background 0.1s; }
+    /* line 119, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .color-run-graph:hover .container .right-side h3 {
+      margin-top: 55px;
+      color: white; }
+    /* line 122, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .color-run-graph:hover .container .right-side h4 {
+      margin-top: 10px;
+      color: under-title-color; }
+    /* line 124, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .color-run-graph:hover .container .right-side ul li {
+      list-style: none;
+      color: #ffd800; }
+  /* line 131, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .color-run-graph-container {
+    width: 70%;
+    margin: 0 auto; }
+    /* line 134, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .color-run-graph-container .left-side {
+      width: 50%;
+      display: inline-block; }
+      /* line 141, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .color-run-graph-container .left-side img {
+        width: 300px;
+        display: inline-block;
+        float: right;
+        margin-top: 50px;
+        box-shadow: 1px 1px 10px black; }
+    /* line 153, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .color-run-graph-container .right-side {
+      display: inline-block;
+      vertical-align: top; }
+      /* line 156, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .color-run-graph-container .right-side h3 {
+        margin-top: 55px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 159, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .color-run-graph-container .right-side h4 {
+        margin-top: 10px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 162, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .color-run-graph-container .right-side ul li {
+        list-style: none;
+        color: #cecece;
+        font-size: 1.2em; }
+
+/* line 225, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.nendaz-graph {
+  width: 50%;
+  display: inline-block;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: -4px;
+  background: rgba(105, 105, 105, 0.5);
+  -webkit-transition: background 0.1s; }
+  /* line 113, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .nendaz-graph:hover {
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: background 0.1s; }
+    /* line 119, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .nendaz-graph:hover .container .right-side h3 {
+      margin-top: 55px;
+      color: #FCE100; }
+    /* line 122, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .nendaz-graph:hover .container .right-side h4 {
+      margin-top: 10px;
+      color: under-title-color; }
+    /* line 124, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .nendaz-graph:hover .container .right-side ul li {
+      list-style: none;
+      color: white; }
+  /* line 131, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .nendaz-graph-container {
+    width: 70%;
+    margin: 0 auto; }
+    /* line 134, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .nendaz-graph-container .left-side {
+      width: 50%;
+      display: inline-block; }
+      /* line 141, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .nendaz-graph-container .left-side img {
+        width: 300px;
+        display: inline-block;
+        float: right;
+        margin-top: 50px;
+        box-shadow: 1px 1px 10px black; }
+    /* line 153, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .nendaz-graph-container .right-side {
+      display: inline-block;
+      vertical-align: top; }
+      /* line 156, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .nendaz-graph-container .right-side h3 {
+        margin-top: 55px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 159, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .nendaz-graph-container .right-side h4 {
+        margin-top: 10px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 162, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .nendaz-graph-container .right-side ul li {
+        list-style: none;
+        color: #cecece;
+        font-size: 1.2em; }
+
+/* line 235, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.bv-logo {
+  width: 50%;
+  display: inline-block;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: -4px;
+  background: rgba(105, 105, 105, 0.5);
+  -webkit-transition: background 0.1s; }
+  /* line 113, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .bv-logo:hover {
+    height: 400px;
+    background: rgba(159, 34, 69, 0.7);
+    -webkit-transition: background 0.1s; }
+    /* line 119, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .bv-logo:hover .container .right-side h3 {
+      margin-top: 55px;
+      color: #13A69C; }
+    /* line 122, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .bv-logo:hover .container .right-side h4 {
+      margin-top: 10px;
+      color: under-title-color; }
+    /* line 124, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .bv-logo:hover .container .right-side ul li {
+      list-style: none;
+      color: white; }
+  /* line 131, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .bv-logo-container {
+    width: 70%;
+    margin: 0 auto; }
+    /* line 134, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .bv-logo-container .left-side {
+      width: 50%;
+      display: inline-block; }
+      /* line 141, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .bv-logo-container .left-side img {
+        width: 200px;
+        display: inline-block;
+        float: right;
+        margin-top: 50px; }
+    /* line 153, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .bv-logo-container .right-side {
+      display: inline-block;
+      vertical-align: top; }
+      /* line 156, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .bv-logo-container .right-side h3 {
+        margin-top: 55px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 159, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .bv-logo-container .right-side h4 {
+        margin-top: 10px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 162, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .bv-logo-container .right-side ul li {
+        list-style: none;
+        color: #cecece;
+        font-size: 1.2em; }
+
+/* line 247, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.jkj-site {
+  height: 400px;
+  background: rgba(105, 105, 105, 0.5);
+  -webkit-transition: background 0.1s;
+  overflow: hidden;
+  width: 100%; }
+  /* line 113, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .jkj-site:hover {
+    height: 400px;
+    background: rgba(23, 154, 53, 0.8);
+    -webkit-transition: background 0.1s; }
+    /* line 119, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .jkj-site:hover .container .right-side h3 {
+      margin-top: 55px;
+      color: white; }
+    /* line 122, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .jkj-site:hover .container .right-side h4 {
+      margin-top: 10px;
+      color: under-title-color; }
+    /* line 124, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .jkj-site:hover .container .right-side ul li {
+      list-style: none;
+      color: #af2a00; }
+  /* line 131, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .jkj-site-container {
+    width: 70%;
+    margin: 0 auto; }
+    /* line 134, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .jkj-site-container .left-side {
+      width: 50%;
+      display: inline-block;
+      height: 500px;
+      vertical-align: top; }
+      /* line 141, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .jkj-site-container .left-side img {
+        width: 250px;
+        display: inline-block;
+        float: right; }
+    /* line 153, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .jkj-site-container .right-side {
+      display: inline-block;
+      vertical-align: top; }
+      /* line 156, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .jkj-site-container .right-side h3 {
+        margin-top: 55px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 159, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .jkj-site-container .right-side h4 {
+        margin-top: 10px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 162, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .jkj-site-container .right-side ul li {
+        list-style: none;
+        color: #cecece;
+        font-size: 1.2em; }
+
+/* line 258, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.kenzo-graph {
+  width: 50%;
+  display: inline-block;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: -4px;
+  background: rgba(105, 105, 105, 0.5);
+  -webkit-transition: background 0.1s; }
+  /* line 113, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .kenzo-graph:hover {
+    height: 400px;
+    background: rgba(226, 49, 43, 0.8);
+    -webkit-transition: background 0.1s; }
+    /* line 119, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .kenzo-graph:hover .container .right-side h3 {
+      margin-top: 55px;
+      color: white; }
+    /* line 122, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .kenzo-graph:hover .container .right-side h4 {
+      margin-top: 10px;
+      color: under-title-color; }
+    /* line 124, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .kenzo-graph:hover .container .right-side ul li {
+      list-style: none;
+      color: white; }
+  /* line 131, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .kenzo-graph-container {
+    width: 70%;
+    margin: 0 auto; }
+    /* line 134, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .kenzo-graph-container .left-side {
+      width: 50%;
+      display: inline-block; }
+      /* line 141, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .kenzo-graph-container .left-side img {
+        width: 300px;
+        display: inline-block;
+        float: right;
+        margin-top: 50px;
+        box-shadow: 1px 1px 10px black; }
+    /* line 153, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .kenzo-graph-container .right-side {
+      display: inline-block;
+      vertical-align: top; }
+      /* line 156, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .kenzo-graph-container .right-side h3 {
+        margin-top: 55px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 159, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .kenzo-graph-container .right-side h4 {
+        margin-top: 10px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 162, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .kenzo-graph-container .right-side ul li {
+        list-style: none;
+        color: #cecece;
+        font-size: 1.2em; }
+
+/* line 270, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+.ma-logo {
+  width: 50%;
+  display: inline-block;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: -4px;
+  background: rgba(105, 105, 105, 0.5);
+  -webkit-transition: background 0.1s; }
+  /* line 113, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .ma-logo:hover {
+    height: 400px;
+    background: rgba(147, 149, 152, 0.8);
+    -webkit-transition: background 0.1s; }
+    /* line 119, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .ma-logo:hover .container .right-side h3 {
+      margin-top: 55px;
+      color: white; }
+    /* line 122, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .ma-logo:hover .container .right-side h4 {
+      margin-top: 10px;
+      color: under-title-color; }
+    /* line 124, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .ma-logo:hover .container .right-side ul li {
+      list-style: none;
+      color: white; }
+  /* line 131, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+  .ma-logo-container {
+    width: 70%;
+    margin: 0 auto; }
+    /* line 134, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .ma-logo-container .left-side {
+      width: 50%;
+      display: inline-block; }
+      /* line 141, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .ma-logo-container .left-side img {
+        width: 300px;
+        display: inline-block;
+        float: right;
+        margin-top: 50px; }
+    /* line 153, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+    .ma-logo-container .right-side {
+      display: inline-block;
+      vertical-align: top; }
+      /* line 156, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .ma-logo-container .right-side h3 {
+        margin-top: 55px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 159, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .ma-logo-container .right-side h4 {
+        margin-top: 10px;
+        color: #cecece;
+        font-size: 2em; }
+      /* line 162, C:/wamp/www/jkj/Current-version/css/scss/_work.scss */
+      .ma-logo-container .right-side ul li {
+        list-style: none;
+        color: #cecece;
+        font-size: 1.2em; }
+
+/*///////////////////////////              About-me Container            ///////////////////////////*/
+/* line 4, C:/wamp/www/jkj/Current-version/css/scss/_about-me.scss */
+.about-me {
+  background-image: url(../img/big-work-container-texture-white.jpg);
+  background-position: center center;
+  height: 500px;
+  overflow: hidden;
+  border-bottom: 2px solid #ff3600; }
+
+/* line 12, C:/wamp/www/jkj/Current-version/css/scss/_about-me.scss */
+.about-me img {
+  float: left;
+  width: 190px;
+  border-radius: 100%;
+  border: 3px solid #ff3600; }
+
+/* line 20, C:/wamp/www/jkj/Current-version/css/scss/_about-me.scss */
+.about-me-container {
+  width: 45%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+/* line 29, C:/wamp/www/jkj/Current-version/css/scss/_about-me.scss */
+.about-me-container .text {
+  width: 65%;
+  float: right; }
+
+/* line 34, C:/wamp/www/jkj/Current-version/css/scss/_about-me.scss */
+.about-me-container h3 {
+  font-size: 3em;
+  color: #ff3600;
+  text-decoration: underline; }
+
+/* line 40, C:/wamp/www/jkj/Current-version/css/scss/_about-me.scss */
+.about-me-container p {
+  color: #000000;
+  font-weight: 300;
+  font-size: 1.1em; }
+
+/*///////////////////////////              Contact Container            ///////////////////////////*/
+/* line 4, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+.contact-container {
+  background-image: url(../img/JKJ-texture-navigation.jpg);
+  background-position: center center;
+  overflow: hidden; }
+
+/* line 11, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+.contact-container div {
+  background-position: center center;
+  margin: 70px auto;
+  max-width: 40em;
+  border-radius: 5px; }
+
+/* line 18, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+form {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
+
+/* line 25, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+fieldset {
+  border: none;
+  width: 300px;
+  margin: 0 auto; }
+
+/* line 31, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+legend {
+  font-size: 2.8em;
+  text-align: center; }
+
+/* line 36, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+input[type=text], textarea {
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  background-image: url(../img/big-work-container-texture-white.jpg);
+  box-shadow: 2px 2px 6px black inset;
+  font-family: oswald;
+  font-weight: 400;
+  color: #ff3600;
+  font-size: 1.3em;
+  padding: 8px 20px;
+  border: none;
+  outline: none; }
+
+/* line 54, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+input {
+  height: 50px;
+  border: none; }
+
+/* line 59, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+label {
+  color: #ff3600;
+  font-size: 1.5em; }
+
+/* line 64, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+form h3 {
+  color: white;
+  font-size: 2.8em;
+  text-align: center;
+  margin-top: -160px;
+  margin-bottom: 40px;
+  text-align: center; }
+
+/* line 73, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+input[type=submit] {
+  background-color: #ff3600;
+  color: white;
+  font-size: 1.3em;
+  height: 60px;
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 40px; }
+
+/* line 86, C:/wamp/www/jkj/Current-version/css/scss/_contact.scss */
+.error {
+  color: #ff3600; }
+
+/* line 1, C:/wamp/www/jkj/Current-version/css/scss/_footer.scss */
+footer {
+  height: 250px;
+  background-image: url(../img/JKJ-texture-navigation.jpg);
+  background-position: center center; }
+
+/* line 8, C:/wamp/www/jkj/Current-version/css/scss/_footer.scss */
+.footer-collumns-container {
+  width: 65%;
+  margin: 0 auto; }
+
+/* line 13, C:/wamp/www/jkj/Current-version/css/scss/_footer.scss */
+.footer-collumns {
+  width: 33%;
+  display: inline-block;
+  height: 250px;
+  line-height: 250px;
+  vertical-align: top; }
+
+/* line 21, C:/wamp/www/jkj/Current-version/css/scss/_footer.scss */
+.footer-collumns-content {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  color: white;
+  list-style: none; }
+  /* line 27, C:/wamp/www/jkj/Current-version/css/scss/_footer.scss */
+  .footer-collumns-content > p span {
+    color: #ff3600; }
+  /* line 30, C:/wamp/www/jkj/Current-version/css/scss/_footer.scss */
+  .footer-collumns-content > .dot {
+    margin-left: 120px; }
+  /* line 33, C:/wamp/www/jkj/Current-version/css/scss/_footer.scss */
+  .footer-collumns-content a {
+    text-decoration: none;
+    color: white;
+    list-style: none; }
+
+/* line 41, C:/wamp/www/jkj/Current-version/css/scss/_footer.scss */
+.social-network-container {
+  width: 100%;
+  text-align: center; }
+
+/* line 47, C:/wamp/www/jkj/Current-version/css/scss/_footer.scss */
+svg:hover path,
+svg:hover g {
+  fill: #ff3600;
+  transition: fill 0.2s; }
+
+/* line 52, C:/wamp/www/jkj/Current-version/css/scss/_footer.scss */
+svg {
+  height: 60px; }
+
+/* line 1, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(59, 59, 59, 0.8);
+  top: 0;
+  display: none;
+  z-index: 3000000; }
+
+/* line 11, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project {
+  background-color: #ffffff;
+  display: none;
+  margin: 0 auto;
+  width: 85%;
+  box-shadow: 0px 3px 10px 0px black;
+  overflow: auto;
+  position: relative; }
+
+/* line 21, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project .main-title {
+  height: 100px; }
+
+/* line 25, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project .main-title > h2 {
+  color: #227FB2;
+  text-align: right;
+  margin: 0 auto;
+  font-size: 2.5em;
+  font-weight: 400;
+  width: 32%;
+  line-height: 100px;
+  background-image: url(../img/lucid-dream-logo-blue.png);
+  background-size: 65px;
+  background-repeat: no-repeat;
+  background-position: left center; }
+
+/* line 39, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project .main-jumbotron {
+  height: 350px;
+  line-height: 350px;
+  background-color: #227FB2;
+  background-image: url(../img/lucid-dream-crew.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+/* line 49, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project .jumbotron-text {
+  width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1.3; }
+
+/* line 56, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project .jumbotron-text-center {
+  width: 50%;
+  margin: 0 auto; }
+
+/* line 61, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project .jumbotron-text h3 {
+  font-size: 4.5em;
+  color: white;
+  font-weight: 300;
+  display: inline-block; }
+
+/* line 68, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project .jumbotron-text p {
+  display: inline-block;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 300;
+  margin: 15px 0; }
+
+/* line 76, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project .column-container {
+  display: flex;
+  width: 60%;
+  margin: 0 auto; }
+
+/* line 82, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project .column {
+  width: 25%;
+  margin: 70px auto; }
+
+/* line 87, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.ld-print {
+  background-image: url(../img/LD-print.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+/* line 93, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.ld-web {
+  background-image: url(../img/LD-web.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: top center; }
+
+/* line 99, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.ld-video {
+  background-image: url(../img/LD-video.png);
+  background-size: 124px;
+  background-repeat: no-repeat;
+  background-position: top center; }
+
+/* line 106, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ld-project .column > p {
+  color: #227FB2;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-top: 120px; }
+
+/* line 128, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bp-project {
+  background-color: #f0f0f0;
+  display: none;
+  margin: 0 auto;
+  box-shadow: 0px 3px 10px 0px black;
+  width: 85%; }
+
+/* line 137, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bp-project .main-title > h2 {
+  color: #216163;
+  text-align: right;
+  margin: 0 auto;
+  font-size: 2.5em;
+  font-weight: 400;
+  width: 48%;
+  line-height: 100px;
+  background-image: url(../img/bp-logo-blue.png);
+  background-size: 65px;
+  background-repeat: no-repeat;
+  background-position: left center; }
+
+/* line 151, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bp-project .main-jumbotron {
+  height: 350px;
+  line-height: 350px;
+  background-color: #216163;
+  background-image: url(../img/belle-provence-van.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+/* line 161, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bp-project .jumbotron-text {
+  width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1.3; }
+
+/* line 168, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bp-project .jumbotron-text-center {
+  width: 60%;
+  margin: 0 auto; }
+
+/* line 173, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bp-project .jumbotron-text h3 {
+  font-size: 4.5em;
+  color: white;
+  font-weight: 300;
+  display: inline-block;
+  margin: 5px 0; }
+
+/* line 181, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bp-project .jumbotron-text p {
+  display: inline-block;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 400;
+  margin: 5px 0; }
+
+/* line 189, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bp-project .column-container {
+  display: flex;
+  width: 60%;
+  margin: 0 auto; }
+
+/* line 195, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bp-project .column {
+  width: 25%;
+  margin: 70px auto; }
+
+/* line 200, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.bp-web {
+  background-image: url(../img/BP-web.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: top center; }
+
+/* line 207, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bp-project .column > p {
+  color: #216163;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-top: 120px; }
+
+/* line 214, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-print {
+  display: none; }
+
+/* line 218, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-print > div {
+  margin: 0 auto;
+  text-align: center; }
+
+/* line 228, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.skill-icon-container {
+  background-image: url(../img/JKJ-texture-navigation.jpg);
+  height: 400px;
+  line-height: 400px;
+  box-shadow: 0px 0px 20px -1px black;
+  display: none;
+  margin-top: -200px; }
+
+/* line 237, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.skill-icon-container span {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 275px;
+  height: 400px;
+  background-image: url(../img/JKJ-skill-icon-sprite-orange.png); }
+
+/* line 246, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.skill-icon-container .wiki-link {
+  color: #ff3600; }
+
+/* line 250, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.skill-icon-container > div {
+  width: 50%;
+  margin: 0 auto;
+  display: none; }
+
+/* line 257, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.skill-icon-container .left-side {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top; }
+
+/* line 263, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.skill-icon-container .right-side {
+  width: 55%;
+  display: inline-block;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: normal;
+  /* on rétablit le line-height */
+  text-align: left; }
+  /* line 271, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+  .skill-icon-container .right-side h1 {
+    font-size: 2.8em;
+    font-weight: 400;
+    color: #ff3600; }
+  /* line 276, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+  .skill-icon-container .right-side p {
+    font-size: 1.8em;
+    color: white;
+    font-weight: 300; }
+
+/* line 284, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ps-icon span {
+  background-position: -853px center; }
+
+/* line 288, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ai-icon span {
+  background-position: -23px center; }
+
+/* line 292, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ind-icon span {
+  background-position: -1404px center; }
+
+/* line 296, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-html-icon span {
+  background-position: -1636px center; }
+
+/* line 300, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-css-icon span {
+  background-position: -1153px center; }
+
+/* line 304, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-bs-icon span {
+  background-position: -276px center; }
+
+/* line 308, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-resp-icon span {
+  background-position: -2727px center; }
+
+/* line 312, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-php-icon span {
+  background-position: -1938px center; }
+
+/* line 316, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-jq-icon span {
+  background-position: -520px center; }
+
+/* line 320, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-js-icon span {
+  background-position: -2473px center; }
+
+/* line 324, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-wp-icon span {
+  background-position: -2265px center; }
+
+/* line 328, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-pp-icon span {
+  background-position: -2973px center; }
+
+/* line 331, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-ae-icon span {
+  background-position: -3274px center; }
+
+/* line 334, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-fl-icon span {
+  background-position: -3544px center; }
+
+/* line 392, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-website-fc {
+  background-position: center center;
+  background-image: url("../img/blue-texture.jpg");
+  height: 400px;
+  line-height: 400px;
+  border-top: 2px solid #ff3600;
+  border-bottom: 2px solid #ff3600;
+  display: none; }
+  /* line 354, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+  .modal-website-fc .center-container {
+    width: 65%;
+    margin: 0 auto;
+    height: 400px;
+    line-height: 400px; }
+  /* line 361, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+  .modal-website-fc .left-side {
+    width: 50%;
+    display: inline-block;
+    background-image: url("../img/modal-website-fc.png");
+    background-position: left center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 400px; }
+  /* line 371, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+  .modal-website-fc .right-side {
+    width: 40%;
+    margin-right: 0px;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal; }
+    /* line 378, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+    .modal-website-fc .right-side h1 {
+      color: #ff3600;
+      font-size: 3em; }
+    /* line 382, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+    .modal-website-fc .right-side p {
+      font-size: 1.9em;
+      color: white; }
+
+/* line 401, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+.modal-website-jkj-2014 {
+  background-position: center center;
+  background-image: url("../img/green-texture.jpg");
+  height: 400px;
+  line-height: 400px;
+  border-top: 2px solid #ff3600;
+  border-bottom: 2px solid #ff3600;
+  display: none; }
+  /* line 354, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+  .modal-website-jkj-2014 .center-container {
+    width: 65%;
+    margin: 0 auto;
+    height: 400px;
+    line-height: 400px; }
+  /* line 361, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+  .modal-website-jkj-2014 .left-side {
+    width: 50%;
+    display: inline-block;
+    background-image: url("../img/modal-website-jkj-2014.png");
+    background-position: left center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 400px; }
+  /* line 371, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+  .modal-website-jkj-2014 .right-side {
+    width: 40%;
+    margin-right: 0px;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal; }
+    /* line 378, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+    .modal-website-jkj-2014 .right-side h1 {
+      color: white;
+      font-size: 3em; }
+    /* line 382, C:/wamp/www/jkj/Current-version/css/scss/_modal.scss */
+    .modal-website-jkj-2014 .right-side p {
+      font-size: 1.9em;
+      color: white; }
+
+@media screen and (max-width: 1320px) {
+  /* line 3, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .footer-collumns-container {
+    width: 90%; }
+  /* line 8, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .column-container {
+    width: 80%; }
+  /* line 12, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .jumbotron-text-center {
+    width: 60%; }
+  /* line 17, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .main-title > h2 {
+    width: 65%; }
+  /* line 21, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .column-container {
+    width: 80%; }
+  /* line 25, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .jumbotron-text-center {
+    width: 60%; }
+  /* line 31, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .filter-container {
+    width: 65%; }
+  /* line 35, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  nav {
+    width: 70% !important; }
+  /* line 39, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .right-side {
+    width: 30% !important;
+    margin-right: 10px !important; }
+  /* line 44, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .lucid-dream .right-side {
+    width: 30% !important;
+    margin-right: 10px !important; }
+  /* line 49, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .graph img {
+    width: 220px !important; }
+  /* line 53, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .col {
+    width: 35%;
+    margin: 0 auto; }
+  /* line 57, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .col-section {
+    height: auto; }
+  /* line 61, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .col span {
+    display: none; }
+  /* line 65, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .col:hover ul {
+    display: none; }
+  /* line 69, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slider, .slide {
+    height: 400px; }
+  /* line 73, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .about-me-container {
+    width: 60%; }
+  /* line 77, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .project-container {
+    background-position: center right; }
+  /* line 81, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .main-title > h2 {
+    width: 45%; } }
+
+@media screen and (max-width: 1000px) {
+  /* line 91, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .footer-collumns-content > .dot {
+    margin-left: 80px; }
+  /* line 95, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .footer-collumns {
+    width: 32%; }
+  /* line 102, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .column-container {
+    width: 95%; }
+  /* line 106, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .jumbotron-text-center {
+    width: 70%; }
+  /* line 110, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project {
+    width: 95%; }
+  /* line 114, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .main-title > h2 {
+    width: 51%; }
+  /* line 119, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project {
+    width: 95%; }
+  /* line 122, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .main-title > h2 {
+    width: 80%; }
+  /* line 125, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .jumbotron-text-center {
+    width: 70%; }
+  /* line 131, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .filter-container {
+    width: 80%; }
+  /* line 135, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  nav {
+    width: 80% !important; }
+  /* line 139, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container > ul > li {
+    width: 100%;
+    border-right: none;
+    border-left: none; }
+  /* line 145, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .graph img {
+    width: 300px !important; }
+  /* line 149, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .right-side {
+    margin-left: 10px !important; }
+  /* line 153, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .right-side h3 {
+    font-size: 1.7em !important; }
+  /* line 156, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .right-side h4 {
+    font-size: 1.5em !important; }
+  /* line 159, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .right-side li {
+    font-size: 1.2em !important; }
+  /* line 163, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .col-container {
+    width: 80%; }
+  /* line 166, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .col-container img {
+    width: 30%; }
+  /* line 170, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slider, .slide {
+    height: 300px; }
+  /* line 174, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slide-text h1 {
+    font-size: 1.5em; }
+  /* line 178, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slide-text h4 {
+    font-size: 1.1em; }
+  /* line 182, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .about-me-container {
+    width: 80%;
+    margin-top: 100px; }
+  /* line 187, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .about-me {
+    height: 430px; }
+  /* line 191, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  nav {
+    width: 70%; } }
+
+@media screen and (max-width: 800px) {
+  /* line 202, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  main {
+    margin-top: 0 !important; }
+  /* line 206, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  header {
+    background: none;
+    border: none; }
+  /* line 212, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav li a {
+    padding: 8px 5% !important;
+    font-size: 1.4em !important;
+    text-shadow: none !important;
+    color: #ff3600 !important; }
+  /* line 220, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav {
+    box-shadow: none !important; }
+  /* line 223, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .footer-collumns-content a {
+    width: 30px;
+    display: inline-block; }
+  /* line 228, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  svg {
+    height: 30px; }
+  /* line 234, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .column > p {
+    font-size: 1.2em; }
+  /* line 238, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .main-jumbotron {
+    height: 300px;
+    line-height: 300px; }
+  /* line 243, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .jumbotron-text h3 {
+    font-size: 4em; }
+  /* line 247, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .jumbotron-text p {
+    font-size: 1.2em; }
+  /* line 251, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .main-title > h2 {
+    width: 65%; }
+  /* line 257, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .main-title > h2 {
+    font-size: 1.6em; }
+  /* line 260, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .column > p {
+    font-size: 1.2em; }
+  /* line 264, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .column {
+    width: 50%; }
+  /* line 268, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .main-jumbotron {
+    height: 300px;
+    line-height: 300px; }
+  /* line 273, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .jumbotron-text h3 {
+    font-size: 4em; }
+  /* line 277, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .jumbotron-text p {
+    font-size: 1.2em; }
+  /* line 283, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .filter-container {
+    text-align: center;
+    margin-bottom: 125px; }
+  /* line 287, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .filter-button-container {
+    margin: 20px auto;
+    float: none;
+    padding: 0; }
+  /* line 293, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .filter {
+    padding: 0 20px; }
+  /* line 297, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  nav {
+    width: 100% !important; }
+  /* line 300, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container > ul > li {
+    height: 300px; }
+  /* line 303, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container > ul > .graph img {
+    width: 170px !important;
+    margin-top: 25px !important; }
+  /* line 308, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container > ul > .site img {
+    width: 200px !important;
+    margin-top: 40px !important; }
+  /* line 313, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container .site .left-side {
+    margin-top: 0; }
+  /* line 317, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .lucid-dream-site img {
+    width: 400px !important; }
+  /* line 321, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container > ul > li:hover {
+    height: 300px; }
+  /* line 325, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .right-side li {
+    font-size: 0.8em !important; }
+  /* line 329, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .site .right-side h3, .lucid-dream-site h3 {
+    font-size: 1.4em !important;
+    margin-top: 20px !important; }
+  /* line 333, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .site .right-side h4, .lucid-dream-site h4 {
+    font-size: 1.2em !important;
+    margin-top: 0px !important; }
+  /* line 338, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .col-container img {
+    width: 50%; }
+  /* line 342, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .col {
+    width: 50% !important; }
+  /* line 346, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .project-container {
+    background-image: none; }
+  /* line 352, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .mrs-graph {
+    background: rgba(216, 61, 176, 0.8); }
+  /* line 356, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .mrs-graph .right-side h3 {
+    margin-top: 55px;
+    color: #62001a;
+    font-size: 1.8em; }
+  /* line 357, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .mrs-graph .right-side h4 {
+    margin-top: 10px;
+    color: #62001a;
+    font-size: 1.5em; }
+  /* line 358, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .mrs-graph .right-side ul li {
+    list-style: none;
+    color: white;
+    font-size: 1.1em; }
+  /* line 361, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .color-run-graph {
+    background: rgba(42, 127, 192, 0.8); }
+  /* line 365, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .color-run-graph .right-side h3 {
+    margin-top: 55px;
+    color: #fff;
+    font-size: 1.8em; }
+  /* line 366, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .color-run-graph .right-side h4 {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.5em; }
+  /* line 367, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .color-run-graph .right-side ul li {
+    list-style: none;
+    color: #ffd800;
+    font-size: 1.1em; }
+  /* line 370, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .fc-site {
+    background: rgba(0, 18, 144, 0.8); }
+  /* line 373, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .fc-site .fc-site-container .right-side h3 {
+    margin-top: 55px;
+    color: white; }
+  /* line 374, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .fc-site .fc-site-container .right-side h4 {
+    margin-top: 10px;
+    color: white; }
+  /* line 375, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .fc-site .fc-site-container .right-side ul li {
+    list-style: none;
+    color: #FF3600; }
+  /* line 377, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .lucid-dream-site {
+    background: rgba(45, 101, 123, 0.7); }
+  /* line 381, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .lucid-dream-site .right-side h3 {
+    margin-top: 50px;
+    color: white;
+    font-size: 2em; }
+  /* line 382, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .lucid-dream-site .right-side h4 {
+    margin-top: 10px;
+    color: white;
+    font-size: 2em; }
+  /* line 383, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .lucid-dream-site .right-side ul li {
+    list-style: none;
+    color: #132a34;
+    font-size: 1.2em; }
+  /* line 386, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .nendaz-graph {
+    background: rgba(0, 0, 0, 0.5); }
+  /* line 390, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .nendaz-graph .right-side h3 {
+    margin-top: 55px;
+    color: #FCE100;
+    font-size: 1.8em; }
+  /* line 391, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .nendaz-graph .right-side h4 {
+    margin-top: 10px;
+    color: #FCE100;
+    font-size: 1.5em; }
+  /* line 392, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .nendaz-graph .right-side ul li {
+    list-style: none;
+    color: white;
+    font-size: 1.1em; }
+  /* line 395, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .bv-logo {
+    background: rgba(159, 34, 69, 0.7); }
+  /* line 399, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .bv-logo .right-side h3 {
+    margin-top: 55px;
+    color: #13A69C;
+    font-size: 1.8em; }
+  /* line 400, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .bv-logo .right-side h4 {
+    margin-top: 10px;
+    color: #13A69C;
+    font-size: 1.5em; }
+  /* line 401, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .bv-logo .right-side ul li {
+    list-style: none;
+    color: white;
+    font-size: 1.1em; }
+  /* line 403, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .jkj-site {
+    background: rgba(23, 154, 53, 0.8); }
+  /* line 407, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .jkj-site-container .right-side h3 {
+    margin-top: 55px;
+    color: #cecece;
+    font-size: 2em; }
+  /* line 408, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .jkj-site-container .right-side h4 {
+    margin-top: 10px;
+    color: #cecece;
+    font-size: 2em; }
+  /* line 409, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .jkj-site-container .right-side ul li {
+    list-style: none;
+    color: #cecece;
+    font-size: 1.2em; }
+  /* line 410, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slider {
+    overflow: hidden; }
+  /* line 413, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slide {
+    overflow: hidden; }
+  /* line 417, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slide-text h1 {
+    font-size: 1.2em; }
+  /* line 421, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slide-text h4 {
+    font-size: 0.9em;
+    margin-top: 10px; }
+  /* line 426, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slide-text p {
+    font-size: 0.7em;
+    margin-top: 5px; }
+  /* line 432, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .container {
+    width: 80%; }
+  /* line 436, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slider, .slide {
+    height: 250px; }
+  /* line 440, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .about-me {
+    height: 400px; }
+  /* line 444, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .about-me-container {
+    width: 90%; }
+  /* line 448, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .about-me-container img {
+    width: 150px; }
+  /* line 452, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .text {
+    width: 70%; }
+  /* line 456, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .text h3 {
+    font-size: 2em; }
+  /* line 460, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .text p {
+    font-size: 1em; }
+  /* line 464, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  nav {
+    width: 80%; } }
+
+@media screen and (max-width: 600px) {
+  /* line 472, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .footer-collumns-content a {
+    display: inline; }
+  /* line 476, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .dot {
+    margin-left: 0 !important; }
+  /* line 480, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  svg {
+    height: 40px; }
+  /* line 484, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .contact-container div {
+    margin: 70px  auto 0 auto; }
+  /* line 488, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  footer {
+    height: auto; }
+  /* line 492, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .footer-collumns {
+    width: 100%;
+    text-align: center; }
+  /* line 497, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .footer-collumns {
+    padding: 25px 0;
+    border-top: 1px solid black;
+    height: auto;
+    line-height: 0; }
+  /* line 508, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .column {
+    width: 70%; }
+  /* line 512, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .jumbotron-text h3 {
+    font-size: 3em; }
+  /* line 516, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .jumbotron-text p {
+    font-size: 1em; }
+  /* line 519, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .column-container p {
+    text-align: center; }
+  /* line 523, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .main-title h2 {
+    text-align: center;
+    background-image: none;
+    width: 100%; }
+  /* line 531, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .main-title h2 {
+    text-align: center;
+    background-image: none; }
+  /* line 535, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .column-container p {
+    padding-top: 110px;
+    text-align: center; }
+  /* line 540, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .column-container {
+    display: block; }
+  /* line 543, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .column {
+    width: 70%; }
+  /* line 547, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .jumbotron-text h3 {
+    font-size: 3em; }
+  /* line 551, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .jumbotron-text p {
+    font-size: 1em; }
+  /* line 556, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project {
+    width: 100%; }
+  /* line 560, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project {
+    width: 100%; }
+  /* line 566, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .filter-container {
+    width: 100%; }
+  /* line 570, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .filter {
+    padding: 0 16px; }
+  /* line 575, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .about-me {
+    height: auto; }
+  /* line 579, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .about-me-container {
+    height: auto;
+    width: 65%;
+    margin-top: 30px; }
+  /* line 585, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .about-me-container .text {
+    text-align: center;
+    width: 100%;
+    margin: 30px 0; }
+  /* line 592, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .about-me img {
+    width: 50%;
+    margin: 0 25%;
+    float: none; }
+  /* line 598, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  header {
+    overflow: visible; }
+  /* line 602, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .project-container {
+    width: 80% !important;
+    text-align: center; } }
+
+@media screen and (max-width: 400px) {
+  /* line 612, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-bp-project .main-title > h2 {
+    font-size: 1.3em; }
+  /* line 616, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .modal-ld-project .main-title > h2 {
+    font-size: 1.3em; }
+  /* line 620, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .container {
+    width: 90%; }
+  /* line 624, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container > ul > li {
+    height: 230px; }
+  /* line 627, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container > ul > .graph img {
+    width: 130px !important;
+    margin-top: 25px !important; }
+  /* line 631, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container > ul > .site img {
+    width: 150px !important;
+    margin-top: 20px !important; }
+  /* line 635, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container .site .left-side {
+    margin-top: 0; }
+  /* line 638, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .lucid-dream-site img {
+    width: 254px !important; }
+  /* line 641, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .work-container > ul > li:hover {
+    height: 230px; }
+  /* line 646, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .site .right-side h3,
+  .graph .right-side h3,
+  .lucid-dream-site h3 {
+    font-size: 1em !important;
+    margin-top: 10px !important; }
+  /* line 652, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .site .right-side h4,
+  .graph .right-side h4,
+  .lucid-dream-site h4 {
+    font-size: 1em !important;
+    margin-top: 0 !important; }
+  /* line 656, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .right-side li {
+    font-size: 0.8em !important; }
+  /* line 659, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .lucid-dream-site .right-side {
+    width: 40%; }
+  /* line 667, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .col-container img {
+    width: 100%; }
+  /* line 671, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slide-text h1 {
+    font-size: 1.2em;
+    margin-top: 7px; }
+  /* line 676, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slide-text h4 {
+    font-size: 0.8em;
+    margin-top: 7px; }
+  /* line 681, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slide-img {
+    display: none; }
+  /* line 685, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .container {
+    width: 70%; }
+  /* line 689, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .slide-text {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    text-align: center; } }
+
+/* line 699, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+.nav-button, .primary-nav {
+  display: none; }
+
+/* hide the navigation button by default */
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  /* line 704, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  main {
+    margin-top: 50px; }
+  /* line 708, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  nav {
+    display: none;
+    background-size: 0px; }
+  /* line 713, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  header {
+    height: 51px;
+    margin-top: -1px;
+    overflow: visible; }
+  /* Navigation Button
+	-------------------------------------------------------- */
+  /* line 723, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .nav-button {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 50px;
+    height: 35px;
+    background: url("../img/JKJ-menu-icon-large.png");
+    background: url("../img/JKJ-menu-icon-large.png");
+    background: url("../img/JKJ-menu-icon-large.png");
+    background: url("../img/JKJ-menu-icon-large.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 21px, 100%;
+    cursor: pointer;
+    border: 0 none;
+    z-index: 999;
+    text-indent: -9999px;
+    outline: none; }
+  /* line 743, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); }
+  /* line 747, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .nav-button:active {
+    outline: none; }
+  /* line 750, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .nav-button.open {
+    background: url("../img/JKJ-close-icon-large.png");
+    background: url("../img/JKJ-close-icon-large.png");
+    background: url("../img/JKJ-close-icon-large.png");
+    background: url("../img/JKJ-close-icon-large.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 21px, 100%; }
+  /* Navigation Bar
+	-------------------------------------------------------- */
+  /* line 763, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  body {
+    padding-top: 1px; }
+  /* line 765, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav {
+    width: 100%;
+    float: none;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));
+    background-image: -ms-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));
+    display: block;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 998;
+    clear: both; }
+  /* line 784, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav li {
+    display: none;
+    width: 100%;
+    font-family: Arial;
+    background-color: rgba(255, 255, 255, 0.9); }
+  /* line 790, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav li a {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 5%;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15);
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #ff3600; }
+  /* line 803, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav li a:hover {
+    border-top-color: transparent; }
+  /* line 807, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav > li:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  /* Toggle the navigation bar open  */
+  /* line 813, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav.open {
+    height: auto;
+    padding-top: 50px; }
+  /* line 817, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav.open li {
+    display: block; }
+  /* Submenus – optional .parent class indicates dropdowns */
+  /* line 823, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav > li:hover > a {
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom-color: transparent; }
+  /* line 827, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav li.parent > a:after {
+    content: "▼";
+    color: black;
+    float: right; }
+  /* line 832, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav li.parent > a:hover {
+    background: rgba(0, 0, 0, 0.2); }
+  /* line 835, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav li ul {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 0 none;
+    padding: 0; }
+  /* line 841, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav li ul a {
+    border: 0 none;
+    font-size: 1.2em;
+    padding: 10px 5%;
+    font-weight: normal; }
+  /* line 847, C:/wamp/www/jkj/Current-version/css/scss/_media.scss */
+  .primary-nav li:hover ul {
+    display: block;
+    border-top: 0 none; } }
+
+/* End Mobile Styles */
+
+/*# sourceMappingURL=main.css.map */

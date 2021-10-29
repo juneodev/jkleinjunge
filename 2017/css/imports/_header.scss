@@ -1,0 +1,48 @@
+header{
+	background-color: $lighter-black;
+	border-bottom: 2px solid $jkj-orange;
+	nav {
+		width: 65%;
+		.logo{
+			img {
+				padding: 8px 0;
+				width: 40px;
+				margin-bottom: -4px;
+			}
+		}
+		ul {
+			a {
+				color: #fff;
+				font-family: $homerun;
+				font-size: 1.3em;			
+			}
+			li {
+				display: inline-block;
+				margin-right: 20px;
+			}
+			li:last-child {margin: 0}
+		}
+	}
+}
+// Mobile Nav Classes
+.drop-down-button {
+	display:none;
+}
+.mobile-nav {
+	display:none;
+	ul {
+		text-align: center;		
+		a {
+			background-color: #1c1c1c;
+			display: inline-block;
+			width: 100%;
+			color: #fff;
+			padding: 10px 0;
+			font-size: 1.3em;
+			margin-bottom: 3px;
+			&:hover {
+				color: $jkj-orange;
+			}
+		}
+	}
+}

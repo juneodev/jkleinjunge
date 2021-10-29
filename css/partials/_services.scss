@@ -1,0 +1,45 @@
+#services {
+  h2 {
+    // Background image
+    background-position: center 100px;
+
+    // Font
+    color: $jkj-orange;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+
+    padding: 15px;
+    margin: 0;
+    border-bottom: 5px solid #efefef;
+  }
+  .services {
+    padding: 75px;
+
+    ul {
+      padding: 20px;
+      margin: 0 auto;
+      list-style: none;
+
+      display: flex;
+      justify-content: space-between;
+    }
+    li {
+      width: 25%;
+      text-align: center;
+
+      img {width: 180px;}
+      h4 {
+        font-size: 1.2rem;
+        color: $grey-77;
+        font-weight: 700;
+      }
+      p {
+        font-weight: 300;
+        line-height: 1.5em;
+      }
+    }
+  }
+
+}
+

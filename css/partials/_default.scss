@@ -1,0 +1,33 @@
+// Variables
+$jkj-orange: #ff3333;
+$grey-51: #333333;
+$grey-77: #4d4d4d;
+$grey-102: #c8c8c8;
+$grey-128: #808080;
+$grey-239: #efefef;
+
+// Default
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  font-family: Roboto;
+  font-size: 0.9rem;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+}

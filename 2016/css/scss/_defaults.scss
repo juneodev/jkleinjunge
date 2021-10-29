@@ -1,0 +1,122 @@
+// Fonts
+
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'neuehaasMed';
+	src: url("../fonts/nh-m/neuehaasMed.eot");
+	src: url("../fonts/nh-m/neuehaasMed.eot#iefix") format("embedded-opentype"),
+		url("../fonts/nh-m/neuehaasMed.woff") format("woff"),
+		url("../fonts/nh-m/neuehaasMed.ttf") format("truetype"),
+		url("../fonts/nh-m/neuehaasMed.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'neuehaasThin';
+	src: url("../fonts/nh-t/neuehaasThin.eot");
+	src: url("../fonts/nh-t/neuehaasThin.eot#iefix") format("embedded-opentype"),
+		url("../fonts/nh-t/neuehaasThin.woff") format("woff"),
+		url("../fonts/nh-t/neuehaasThin.ttf") format("truetype"),
+		url("../fonts/nh-t/neuehaasThin.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'neuehaasXThin';
+	src: url("../fonts/nh-xt/neuehaasXThin.eot");
+	src: url("../fonts/nh-xt/neuehaasXThin.eot#iefix") format("embedded-opentype"),
+		url("../fonts/nh-xt/neuehaasXThin.woff") format("woff"),
+		url("../fonts/nh-xt/neuehaasXThin.ttf") format("truetype"),
+		url("../fonts/nh-xt/neuehaasXThin.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/* General */
+
+a {
+	list-style: none;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+.float-right {
+	float: right;
+	text-align: right;
+}
+
+.float-left {
+	float: left;
+	text-align: left
+}
+
+* {
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.contact-container div img {
+	width: 767px;
+	margin: 18px -83px;
+}
+
+
+main {
+	margin-top: 60px;
+	overflow: hidden;
+}
+
+.dot {
+	color: $jkj-orange;
+}
+
+.slide-text {
+	padding:10px; /* aération interne du bloc */
+	width: 49%;
+	vertical-align:middle;
+	display: inline-block;
+	line-height:1.2; /* on rétablit le line-height */
+	vertical-align: top;
+}
+
+.slide h4 {
+	margin-top: 20px;
+	font-size: 1.7em;
+	color: #cecece;
+}
+
+.t-a-left {
+	text-align: left; 
+}
+.t-a-right {
+	text-align: right; 
+}
+.t-a-center {
+	text-align: center; 
+}
+
+.nh-m {
+	font-family: 'neuehaasMed';
+}
+.nh-t {
+	font-family: 'neuehaasThin';
+}
+.nh-xt {
+	font-family: 'neuehaasXThin';
+}

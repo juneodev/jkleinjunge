@@ -1,0 +1,97 @@
+@media screen and (max-width: 1000px) {
+
+	.footer-collumns-content > .dot {
+		margin-left: 80px;
+	}
+
+	.footer-collumns {
+		width: 32%;
+	}
+
+
+	.modal-ld-project .column-container {
+		width: 95%;
+	}	
+
+	.modal-ld-project .jumbotron-text-center {
+		width: 70%;
+	}
+
+	.modal-ld-project {
+		width: 95%;
+	}
+
+	.modal-ld-project .main-title > h2 {
+		width: 51%;
+	}
+
+	//bp
+	.modal-bp-project {
+		width: 95%;
+	}
+	.modal-bp-project .main-title > h2 {
+		width: 80%;
+	}
+	.modal-bp-project .jumbotron-text-center {
+		width: 70%;
+	}
+
+
+	nav {
+		width: 88% !important;
+	}
+
+	.work-container > ul > li {
+		width: 100%;
+		border-right: none;
+		border-left: none;
+	}
+
+	.right-side {
+		margin-left: 10px !important;
+	}
+
+	.right-side h3 {
+		font-size: 1.7em !important;
+	}
+	.right-side h4 {
+		font-size: 1.5em !important;
+	}
+	.right-side li {
+		font-size: 1.2em !important;
+		padding: 5px 5px !important;
+	}
+
+	.col-container {
+		width: 80%;
+	}
+	.col-container img {
+		width: 45%;
+	}
+
+	.slider, .slide {
+		height: 300px;
+	}
+
+	.slide-text h1 {
+		font-size: 1.5em;
+	}
+
+	.slide-text h4 {
+		font-size: 1.1em;
+	}
+
+	.about-me-container {
+		width: 80%;
+		margin-top: 100px;
+	}
+
+	.about-me {
+		height: 430px;
+	}
+
+	nav {
+		width: 70%;
+	}
+
+}

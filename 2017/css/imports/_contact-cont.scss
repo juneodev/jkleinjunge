@@ -1,0 +1,39 @@
+#contact-content {
+	width: 20%;
+	margin-bottom: 60px;
+	.error {
+		p {
+			padding: 10px;
+			color: $jkj-red;
+		}
+	}
+	.success {
+		p {
+			padding: 10px;
+			color: #00b90e;
+		}
+	}
+	h3 {
+		font-size: 3em;
+		color: $dark-gray;
+		padding: 30px 0;
+		text-align: center;
+	}
+	form {
+		input, textarea {
+			width: 100%;
+			border: none;
+			background-color: $light-gray;
+			padding: 15px 15px;
+			border-radius: 5px;
+			font-family: $ms-b;
+			font-size: 1.1em;
+			margin-bottom: 10px;			
+		}
+		input[type="submit"] {
+			background-color: $jkj-red;
+			color: #fff;
+			-webkit-appearance: none;
+		}
+	}
+}

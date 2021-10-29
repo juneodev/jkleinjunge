@@ -1,0 +1,49 @@
+#jumbotron {
+	width:100%;
+	background-color: red;
+	text-align:center;
+	font-size:2em;
+	line-height:48px;
+	overflow:hidden;
+	position:relative;
+	transition: background-color 0.15s ease-out;
+	h2 {
+		font-size: 1.1em;
+		padding: 60px;
+		em {
+			font-size: 1.3em;
+		}
+	}
+	&.skills-jumb {
+		background-color: $jkj-orange;
+		border-bottom: 8px solid $jkj-red;
+		transition: background-color 0.15s ease-out;
+		h2 {
+			color: #fff;
+		}
+	}
+	&.work-jumb {
+		background-color: #fff;
+		border-bottom: 8px solid #fff;
+		transition: background-color 0.15s ease-out;
+		h2 {
+			color: $jkj-orange;
+		}
+	}
+	&.about-me-jumb {
+		background-color: $light-gray;
+		border-bottom: 8px solid $dark-gray;
+		transition: background-color 0.15s ease-out;
+		h2 {
+			color: $lighter-black;
+		}
+	}
+	&.contact-jumb {
+		background-color: #fff;
+		border-bottom: 8px solid #fff;
+		transition: background-color 0.15s ease-out;
+		h2 {
+			color: $jkj-red;
+		}
+	}
+}

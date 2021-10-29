@@ -1,0 +1,167 @@
+
+
+@media screen and (max-width: 600px) {
+
+
+	.container {
+		width: 100% !important;
+	}
+
+	.right-side {
+		width: 47% !important;
+	}
+
+	.left-side {
+		width: 45% !important;
+
+	}
+
+	.work-container > ul > li .right-side {
+		width: 50% !important;
+		margin-right: 0px !important;
+	}
+
+	.work-container > ul > li.site img {
+		height: 135px !important;
+	}
+
+	.col-container img {
+		width: 65%;
+	}
+
+	.footer-collumns-content a {
+		display: inline;
+	}
+
+	.dot {
+		margin-left: 0 !important;
+	}
+
+	svg {
+		height: 40px;
+	}
+
+	.contact-container div {
+		margin: 70px  auto 0 auto;	
+	}
+
+	footer {
+		height: auto;
+	}
+
+	.footer-collumns {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-collumns {
+		padding: 25px 0;
+		border-top: 1px solid black;
+		height: auto;
+		line-height: 0;
+	}
+
+
+
+	//bp
+
+	.modal-bp-project .column {
+		width: 70%;
+	}
+
+	.modal-bp-project .jumbotron-text h3 {
+		font-size: 3em;
+	}
+
+	.modal-bp-project .jumbotron-text p {
+		font-size: 1em;
+	}
+	.modal-bp-project .column-container p {
+		text-align: center;
+	}
+
+	.modal-bp-project .main-title h2 {
+		text-align: center;
+		background-image: none;
+		width: 100%;
+
+	}
+	//ld
+
+	.modal-ld-project .main-title h2 {
+		text-align: center;
+		background-image: none;
+	}
+	.modal-ld-project .column-container p {
+		padding-top: 110px;
+		text-align: center;
+	}
+
+	.modal-ld-project .column-container {
+		display: block;
+	}
+	.modal-ld-project .column {
+		width: 70%;
+	}
+
+	.modal-ld-project .jumbotron-text h3 {
+		font-size: 3em;
+	}
+
+	.modal-ld-project .jumbotron-text p {
+		font-size: 1em;
+	}
+
+
+	.modal-ld-project {
+		width: 100%;
+	}
+
+	.modal-bp-project {
+		width: 100%;
+	}
+
+
+
+	.filter-container {
+		width: 100%;
+	}
+
+	.filter {
+		padding: 0 16px;
+	}
+
+
+	.about-me{
+		height: auto;
+	}
+
+	.about-me-container{
+		height: auto;
+		width: 65%;
+		margin-top: 30px;
+	}
+
+	.about-me-container .text{
+		text-align: center;
+		width: 100%;
+		margin: 30px 0;
+	}
+
+
+	.about-me img {
+		width: 50%;
+		margin: 0 25%;
+		float: none;
+	}
+
+	header {
+		overflow: visible;
+	}
+
+	.project-container {
+		width: 80% !important;
+		text-align: center;
+	}
+
+}

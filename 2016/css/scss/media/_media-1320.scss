@@ -1,0 +1,105 @@
+@media screen and (max-width: 1320px) {
+
+	.col-container {
+		width: 85% !important;
+	}
+
+	.col {
+		width: 32% !important;
+	}
+
+	.footer-collumns-container {
+		width: 90%;
+	}
+
+	// ld
+	.modal-ld-project .column-container {
+		width: 80%;
+	}
+
+	.modal-ld-project .jumbotron-text-center {
+		width: 60%;
+	}
+
+	//bp
+	.modal-bp-project .main-title > h2 {
+		width: 65%;
+	}
+
+	.modal-bp-project .column-container {
+		width: 80%;
+	}
+
+	.modal-bp-project .jumbotron-text-center {
+		width: 60%;
+	}
+	//
+
+	nav {
+		width: 70% !important;	
+	}
+
+	.right-side{
+		width: 30% !important;
+		margin-right: 10px !important;
+	}
+
+	.lucid-dream .right-side{
+		width: 30% !important;
+		margin-right: 10px !important;
+	}
+
+	.col {
+		width: 35%;
+		margin: 0 auto;	
+	}
+	.col-section {
+		height: auto;
+	}
+
+	.col span  {
+		display: none;
+	}
+
+	.col:hover ul {
+		display: none;
+	}
+
+	.slider, .slide {
+		height: 400px;
+	}
+
+	.about-me-container {
+		width: 60%;
+	}
+
+	.project-container {
+		background-position: center right;
+	}
+
+	.modal-ld-project .main-title > h2 {
+		width: 45%;
+	}
+
+	// Work 
+
+	.container {
+		width: 90%;
+		.right-side {
+			h3 {
+				font-size: 1.5em;
+			}
+			p {
+				font-size:  1.3em;
+			}
+		}
+		img {
+			width: auto !important;
+		}
+	}
+
+
+
+
+}
+

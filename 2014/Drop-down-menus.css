@@ -1,0 +1,224 @@
+	/* Navigation Button
+	-------------------------------------------------------- */
+
+	.open-menu, .jkj-logo {
+		display: block;
+		position: absolute;
+		background-position: center center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		border: 0 none;
+		z-index: 999;
+		text-indent: -9999px;
+	}
+
+	.open-menu, .open-menu-language {
+		top: 7px;
+		background-image: url('menu-icon-large.png');
+		width: 50px;
+		height: 35px;
+		background-size: 21px, 100%;
+		background-color: #007d94;		
+	}
+
+	.open-menu {left: 7px;}
+
+	.jkj-logo {
+		top: 5px;
+		right: 7px;
+		background-image: url('jkj-logo-mobile.png');
+		width: 40px;
+		height: 40px;
+		background-size: 40px, 100%;
+		background-color: white;
+
+	}	
+
+	.open-language {
+		background-color: #007d94;
+	}
+
+	.nav-button.open {
+		background: url('close-icon-large.png');
+		background-color: #007d94;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+	}
+
+	/* Navigation Bar Button Left
+	-------------------------------------------------------- */
+
+	body { padding-top: 50px; } 
+
+	.primary-nav {
+		width: 100%;
+		float: none;
+		background-color: white; /* change the menu color */
+		display: block;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		box-shadow: 0 1px 2px rgba(0,0,0,.6);
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 998;
+		clear: both;
+	}
+	.primary-nav li {
+		display: none;
+		width: 100%;
+		font-family: 'pt_sansbold';
+	}
+	.primary-nav li a {
+		display: block;
+		width: 90%;
+		padding: 7px 40px;
+		font-size: 17px;
+		font-weight: bold;
+		text-shadow: -1px -1px 0 rgba(0,0,0,.15);
+		color: white;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		border-top: 1px solid rgba(255,255,255,.1); 
+	}
+
+	.primary-nav > li:first-child {
+		border-top: 1px solid rgba(0,0,0,.2);
+		background-color: #007D94;
+	}
+	/* Navigation Bar Button right
+	-------------------------------------------------------- */
+ 	.language-nav {
+		width: 100%;
+		float: none;
+		background-color: white; /* change the menu color */
+		display: block;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		box-shadow: 0 1px 2px rgba(0,0,0,.6);
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 998;
+		clear: both;
+	}
+
+	.language-nav li {
+		display: none;
+		width: 100%;
+		font-family: 'pt_sansbold';
+	}
+
+	.language-nav li a {
+		display: block;
+		width: 90%;
+		padding: 9px 75px;
+		font-size: 19px;
+		font-weight: bold;
+		text-shadow: -1px -1px 0 rgba(0,0,0,.15);
+		color: white;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		border-top: 1px solid rgba(255,255,255,.1); 
+	}
+
+	.language-nav > li:first-child {
+		border-top: 1px solid rgba(0,0,0,.2);
+		background-color: #4A53FF;
+	}
+
+
+	/* Toggle the navigation bar open Left */
+
+	.primary-nav.open { 
+		height: auto; 
+		padding-top: 50px;
+	}
+	.primary-nav.open li { 
+		display: block;
+		background-repeat: no-repeat;
+		background-size: 25px;
+		background-position: 5px center;		 
+	}
+
+	.skills-li {		background-image: url("JKJ-icon-skills.png");
+	}
+	.work-li {		background-image: url("JKJ-icon-work.png");
+	}
+	.about-me-li {		background-image: url("JKJ-icon-about_me.png");
+	}
+	.contact-li {		background-image: url("JKJ-icon-contact.png");
+	}
+
+	/* Toggle the navigation bar open Left */
+
+	.language-nav.open-language { 
+		height: auto; 
+		padding-top: 50px;
+	}
+	.language-nav.open-language li { 
+		display: block;
+		background-repeat: no-repeat;
+		background-size: 55px;
+		background-position: 5px center;		 
+	}
+
+	.french-version  {	background: url("JKJ-Front-french-flag.png") rgba(1,3,6,0.7);}
+	.english-version {	background: url("JKJ-Front-english-flag.png") rgba(193,39,45,0.8);}
+
+	/* Submenus – optional .parent class indicates dropdowns (left) */
+
+
+	.primary-nav li.parent > a:after {
+		content: "▼";
+		color: rgba(255,255,255,.5);
+		float: right;
+	}
+
+	.primary-nav li ul {
+		display: none;
+		background: rgba(0,0,0,.5);
+		border-top: 0 none;
+		padding: 0;
+	}
+	.primary-nav li ul a {
+		border: 0 none;
+		font-size: 12px;
+		padding: 10px 5%;
+		font-weight: normal;
+	}
+	.primary-nav li:hover ul {
+		display: block;
+		border-top: 0 none;
+	}
+
+
+	/* Submenus – optional .parent class indicates dropdowns (right) */
+
+	.language-nav li.parent > a:after {
+		content: "▼";
+		color: rgba(255,255,255,.5);
+		float: right;
+	}
+
+	.language-nav li ul {
+		display: none;
+		background: rgba(0,0,0,.5);
+		border-top: 0 none;
+		padding: 0;
+	}
+	.language-nav li ul a {
+		border: 0 none;
+		font-size: 12px;
+		padding: 10px 5%;
+		font-weight: normal;
+	}
+	.language-nav li:hover ul {
+		display: block;
+		border-top: 0 none;
+	}	

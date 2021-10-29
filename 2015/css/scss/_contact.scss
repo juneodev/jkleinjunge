@@ -1,0 +1,88 @@
+
+/*///////////////////////////              Contact Container            ///////////////////////////*/
+
+.contact-container {
+	//background-image: url(../img/big-work-container-texture.jpg);
+	background-image: url(../img/JKJ-texture-navigation.jpg);
+	background-position: center center;
+	overflow: hidden;
+}
+
+.contact-container div {
+	background-position: center center;
+	margin: 70px auto;
+	max-width: 40em;
+	border-radius: 5px;
+}
+
+form {
+	background-position:  center top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+		
+}
+
+fieldset {
+	border: none;
+	width: 300px;
+	margin: 0 auto;
+}
+
+legend {
+	font-size: 2.8em;
+	text-align: center;
+}
+
+input[type=text], textarea {
+	width: 300px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-bottom: 40px;
+	background-image: url(../img/big-work-container-texture-white.jpg);
+	box-shadow: 2px 2px 6px black inset;
+	font-family: oswald;
+	font-weight: 400;
+	color: $jkj-orange; 
+	font-size: 1.3em;
+	padding: 8px 20px;
+	border: none;
+	outline: none;
+}
+
+input{
+	height: 50px;
+	border: none;
+}
+
+label {
+	color: $jkj-orange; 
+	font-size: 1.5em;
+}
+
+form h3 {
+	color: white;
+	font-size: 2.8em;
+	text-align: center;
+	margin-top: -160px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+input[type=submit] {
+	background-color: $jkj-orange;
+	color: white;
+	font-size: 1.3em;
+	height: 60px;
+	width: 300px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-bottom: 40px;
+}
+
+.error {
+	color: #ff3600;
+}

@@ -1,0 +1,31 @@
+@media (max-width: 800PX) {
+
+  // Mobile nav states
+  #jumbotron {
+
+    height: 350px;
+
+  }
+
+}
+
+@media (max-width: 500PX) {
+
+  // Mobile nav states
+  #jumbotron {
+
+    height: 400px;
+
+    .intro h1 {
+      font-size: 2rem;
+    }
+    .intro h2 {
+      font-size: 1.5rem;
+    }
+    .intro p {
+      font-size: 1rem;
+    }
+  }
+
+}
+

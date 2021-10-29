@@ -1,0 +1,65 @@
+@media (max-width: 1100PX) {
+
+  #pricing {
+    padding: 50px 0;
+    .prices-container {
+
+      background-position: 0 100px;
+
+      & > ul {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        & > div {
+          margin: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850PX) {
+
+  #pricing {
+    padding: 10px 0;
+  }
+
+  #pricing h2 {
+    margin-bottom: 30px;
+  }
+
+  #pricing .website-prices {
+    flex-direction: column;
+  }
+
+  #pricing .hosting-price .price {
+    width: 300px;
+  }
+
+  #pricing .price {
+    width: 300px;
+    margin: 10px 0;
+
+    .price-content {
+      height: auto;
+      .options-list {
+        height: auto;
+      }
+    }
+
+    &.big {
+      transform: none;
+      margin: 10px 0;
+    }
+  }
+
+  #pricing .prices-container {
+    background-position: center;
+  }
+
+  #pricing .prices-container > ul > div {
+    margin: 0;
+  }
+
+}

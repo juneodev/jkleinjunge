@@ -1,0 +1,37 @@
+@media (max-width: 1000PX) {
+
+  footer {
+    padding: 30px;
+  }
+  #footer_wrapper {
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 800PX) {
+
+  footer {
+    padding: 30px 50px;
+  }
+
+  #footer_wrapper {
+
+    flex-direction: column;
+
+    & > * {
+      margin: 20px 0;
+
+    }
+
+    #footer_gen-infos {
+      width: 100%;
+    }
+
+    #footer_nav {
+      width: 100%;
+    }
+
+  }
+
+}

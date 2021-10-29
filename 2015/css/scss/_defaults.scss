@@ -1,0 +1,102 @@
+/* General */
+
+a {
+	list-style: none;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.float-right {
+	float: right;
+	text-align: right;
+}
+
+.float-left {
+	float: left;
+	text-align: left
+}
+
+* {
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.contact-container div img {
+	width: 767px;
+	margin: 18px -83px;
+}
+
+
+main {
+	margin-top: 60px;
+	overflow: hidden;
+}
+
+.dot {
+	color: #ff3600;
+}
+
+
+
+
+
+.slide-text {
+	padding:10px; /* aération interne du bloc */
+	width: 49%;
+	vertical-align:middle;
+	display: inline-block;
+	line-height:1.2; /* on rétablit le line-height */
+	vertical-align: top;
+}
+
+
+
+
+.slide h4 {
+	margin-top: 20px;
+	font-size: 1.7em;
+	color: #cecece;
+}
+
+
+
+.lobster {
+	font-family: Lobster;
+}
+.play {
+	font-family: Play;	
+}
+.oswald {
+	font-family: Oswald;
+}
+.oxygen {
+	font-family: Oxygen;
+}
+
+
+.t-a-left {
+	text-align: left; 
+}
+.t-a-right {
+	text-align: right; 
+}
+.t-a-center {
+	text-align: center; 
+}
+
+.o700 { font-weight: 700; }
+.o400 { font-weight: 400; }
+.o300 { font-weight: 300; }

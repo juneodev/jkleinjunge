@@ -1,0 +1,24 @@
+@media screen and (max-width: 1500px) {
+	// Header
+	// Jumbotron
+	// Skills
+	#skills-content {
+		width: 75%;
+	}
+	// Work
+	#work-content article {
+		padding: 0 3%;
+	}
+	// About me
+	#about-me-content {
+		width: 70%;
+		.trainings, .work-exp {
+			padding: 70px 50px;
+		}
+	}
+	// Contact
+	#contact-content {
+		width: 25%;
+	}
+	// Footer
+}

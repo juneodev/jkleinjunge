@@ -1,0 +1,76 @@
+@media (max-width: 1000PX) {
+
+  #work .filter-container ul {
+    width: 70%;
+  }
+
+  #work .work-container article {
+    width: 95%;
+  }
+
+}
+
+@media (max-width: 800PX) {
+
+  #work {
+    padding: 10px 0 30px;
+  }
+
+  #work .filter-container ul {
+    width: 100%;
+  }
+
+  #work .filter-container li {
+    width: 33%;
+  }
+
+  // Work goes on col displaying and children align center;
+  #work .work-container article {
+    flex-direction: column;
+    align-items: center;
+
+    // content taked 80% of the parent article
+    .content {
+      width: 80%;
+    }
+
+    // work illustration has no more blending mask
+    .illustration-container img {
+      -webkit-filter: none;
+      -ms-filter: none;
+      filter: none;
+    }
+  }
+
+  // Work illustration stop being
+  // absolute postioned
+  #work .work-container article .illustration-container img {
+    position: static;
+  }
+
+}
+
+@media (max-width: 500PX) {
+
+  #work .filter-container ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #work .filter-container li {
+    width: 80%;
+    margin: 5px 0;
+  }
+
+  // content take 95% of available space
+  #work .work-container article .content {
+    width: 95%
+  }
+
+  // work illustration get smaller
+  #work .work-container article .illustration-container img {
+    height: 200px;
+  }
+}
+
+

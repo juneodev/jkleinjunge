@@ -1,0 +1,52 @@
+// Header
+
+header {
+
+  padding: 10px;
+  overflow: auto;
+  border-bottom: 2px solid $jkj-orange;
+
+  // Position
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  // Box Shadow
+  box-shadow: 0px 0px 10px -1px #8a8a8a;
+
+  // Position
+  position: relative;
+
+  &.fixed {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    transition: .4s;
+    z-index: 15;
+  }
+
+  nav li {
+    display: inline-block;
+    margin: 0 8px;
+  }
+
+  .logo {
+    width: 45px;
+  }
+
+  .nav-anchor {
+    color: $grey-51;
+
+    padding: 10px;
+    border-radius: 3px;
+
+    font-weight: bold;
+
+    &:hover {
+      background-color: #efefef;
+    }
+  }
+
+}
+

@@ -1,0 +1,154 @@
+
+.col-section {
+	width: 100%;
+	background-color: #f0f0f0;
+	height: 380px;
+}
+
+
+.col-container {
+	width: 70%;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.col {
+	box-sizing: border-box;
+	width: 20%;
+	margin: 0 2%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	z-index: 9999;
+}
+
+
+
+.col h3 {
+	font-size: 1.5em;
+	color: $jkj-orange;
+	margin-bottom: 2em;
+}
+
+.col img {
+	width: 110px;
+	margin: 0 auto;
+}
+
+
+
+.skill-container {
+	list-style: none;
+	background-color: lightgray;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+
+
+
+.skill {
+	width: 70%;
+	padding: 5px;
+	text-align: left;
+	margin: auto;
+	border-bottom: 1px solid red;
+}
+
+.skill:last-child { border: none; }
+.skill a {
+	width: 100%;
+	display: inline-block;
+	line-height: 30px;
+	text-decoration: none;
+	color: #2C2C2C;
+	font-family: oswald;
+
+}
+
+.col ul {
+	max-height: 0;
+	-webkit-transition: max-height 0.15s ease-out;
+	overflow: hidden;
+	background: #f0f0f0;
+}
+
+.col:hover ul {
+	max-height: 500px;
+	-webkit-transition: max-height 0.20s ease-in;
+	border-top: 1px solid #ff3600;
+	box-shadow: 0px 22px 40px -39px black inset;
+}
+
+
+
+.col-container  a span {
+	width: 32px;
+	height:30px;
+	overflow: hidden;
+	display: inline-block;
+	float: right;
+	background-size: 425px;
+	background-repeat: no-repeat;
+	background-image: url(../img/JKJ-skill-icon-sprite.png);
+}
+
+
+
+.col:nth-child(1) li:nth-child(1) span {
+	background-position: -92px 1px;
+}
+
+.col:nth-child(1) li:nth-child(2) span {
+	background-position: 0px 1px;
+}
+
+.col:nth-child(1) li:nth-child(3) span {
+	background-position: -155px 1px;
+	background-size: 425px;
+}
+
+.col:nth-child(2) li:nth-child(1) span {
+	background-position: -185px 1px;
+}
+
+.col:nth-child(2) li:nth-child(2) span {
+	background-position: -129px 1px;
+}
+
+.col:nth-child(2) li:nth-child(3) span {
+	background-position: -32px 1px;
+}
+
+
+.col:nth-child(2) li:nth-child(4) span {
+	background-position: -305px 1px;
+}
+
+.col:nth-child(3) li:nth-child(1) span {
+	background-position: -217px 1px;
+}
+
+.col:nth-child(3) li:nth-child(2) span {
+	background-position: -58px 1px;
+}
+
+.col:nth-child(3) li:nth-child(3) span {
+	background-position: -280px 1px;
+}
+
+.col:nth-child(3) li:nth-child(4) span {
+	background-position: -251px 1px;
+}
+
+.col:nth-child(4) li:nth-child(1) span {
+	background-position: -329px 1px;
+}
+
+.col:nth-child(4) li:nth-child(2) span {
+	background-position: -363px 1px;
+}
+
+.col:nth-child(4) li:nth-child(3) span {
+	background-position: -395px 1px;
+}

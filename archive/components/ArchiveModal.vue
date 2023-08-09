@@ -3,7 +3,7 @@
     <div :style="{ backgroundImage: `url(${backgroundUrl})` }"
          class="w-screen h-screen absolute bg-cover bg-center filter blur-sm"></div>
     <div class="relative flex items-top justify-center min-h-screen sm:items-center sm:pt-0">
-      <div class="w-2/4 mx-auto sm:px-6 lg:px-8">
+      <div class="w-full md:w-2/4 mx-auto sm:px-6 lg:px-8">
         <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
           <h1 class="inline-block text-3xl font-bold text-gray-900 tracking-tight">
             Oups, je n'opère plus à Tahiti
@@ -24,7 +24,7 @@
           <small class="block my-2 text-gray-600">
             Ou accédez à mes portfolios archivés
           </small>
-          <div class="grid grid-cols-5 gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
             <SiteArchiveButton v-for="site in archivedSitesList" :site="site"></SiteArchiveButton>
           </div>
         </div>
